@@ -3,15 +3,15 @@ export default function ResearchPage() {
     <div className="min-h-screen">
       {/* Page Header */}
       <section className="border-b border-industrial-300 dark:border-industrial-700 bg-graphite-900 dark:bg-graphite-900 text-ivory-100">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="max-w-4xl">
-            <div className="font-mono text-xs font-bold tracking-widest text-oxide-500 mb-8">
+            <div className="font-mono text-[10px] sm:text-xs font-bold tracking-widest text-oxide-500 mb-6 md:mb-8">
               05 — RESEARCH & ENGINEERING
             </div>
-            <h1 className="font-serif text-5xl lg:text-6xl font-bold leading-tight mb-8">
+            <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6 md:mb-8 text-balance">
               Innovation Strategy, Engineering Standards, and Long-Term Research Initiatives
             </h1>
-            <p className="text-xl text-ivory-300 leading-relaxed">
+            <p className="text-lg md:text-xl text-ivory-300 leading-relaxed">
               Internal R&D culture, code quality philosophy, AI ethics framework, reliability engineering,
               and continuous learning systems that drive technical excellence.
             </p>
@@ -21,17 +21,17 @@ export default function ResearchPage() {
 
       {/* Innovation Strategy */}
       <section id="innovation" className="border-b border-industrial-300 dark:border-industrial-700">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="content-grid">
             <div className="lg:col-span-4">
-              <h2 className="font-serif text-3xl font-bold mb-4 text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-2xl sm:text-3xl font-bold mb-3 md:mb-4 text-graphite-950 dark:text-ivory-50">
                 Innovation Strategy
               </h2>
-              <div className="font-mono text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
+              <div className="font-mono text-[10px] sm:text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
                 LONG-TERM R&D
               </div>
             </div>
-            <div className="lg:col-span-8 space-y-6">
+            <div className="lg:col-span-8 space-y-4 md:space-y-6 mt-6 lg:mt-0">
               <p className="editorial-text">
                 FORGECORE allocates 18% of annual revenue to research and development, split between
                 immediate product improvements (60%), medium-term capability building (30%), and
@@ -44,13 +44,13 @@ export default function ResearchPage() {
                 consensus algorithms. Publications in peer-reviewed venues (ACM, IEEE, USENIX) demonstrate
                 rigor while contributing to broader technical community.
               </p>
-              <div className="technical-block mt-8">
-                <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+              <div className="technical-block mt-6 md:mt-8">
+                <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                   ACTIVE RESEARCH AREAS
                 </h3>
                 <div className="space-y-4">
                   <div>
-                    <h4 className="font-sans text-sm font-semibold mb-2 text-graphite-900 dark:text-ivory-100">
+                    <h4 className="font-sans text-sm font-semibold mb-1 md:mb-2 text-graphite-900 dark:text-ivory-100">
                       Post-Quantum Cryptography
                     </h4>
                     <p className="text-sm text-graphite-800 dark:text-ivory-300 leading-relaxed">
@@ -60,7 +60,7 @@ export default function ResearchPage() {
                     </p>
                   </div>
                   <div>
-                    <h4 className="font-sans text-sm font-semibold mb-2 text-graphite-900 dark:text-ivory-100">
+                    <h4 className="font-sans text-sm font-semibold mb-1 md:mb-2 text-graphite-900 dark:text-ivory-100">
                       Confidential Computing
                     </h4>
                     <p className="text-sm text-graphite-800 dark:text-ivory-300 leading-relaxed">
@@ -70,7 +70,7 @@ export default function ResearchPage() {
                     </p>
                   </div>
                   <div>
-                    <h4 className="font-sans text-sm font-semibold mb-2 text-graphite-900 dark:text-ivory-100">
+                    <h4 className="font-sans text-sm font-semibold mb-1 md:mb-2 text-graphite-900 dark:text-ivory-100">
                       Federated Learning at Scale
                     </h4>
                     <p className="text-sm text-graphite-800 dark:text-ivory-300 leading-relaxed">
@@ -80,7 +80,7 @@ export default function ResearchPage() {
                     </p>
                   </div>
                   <div>
-                    <h4 className="font-sans text-sm font-semibold mb-2 text-graphite-900 dark:text-ivory-100">
+                    <h4 className="font-sans text-sm font-semibold mb-1 md:mb-2 text-graphite-900 dark:text-ivory-100">
                       Serverless Edge Computing
                     </h4>
                     <p className="text-sm text-graphite-800 dark:text-ivory-300 leading-relaxed">
@@ -98,26 +98,26 @@ export default function ResearchPage() {
 
       {/* Engineering Standards */}
       <section id="standards" className="border-b border-industrial-300 dark:border-industrial-700">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="content-grid">
             <div className="lg:col-span-4">
-              <h2 className="font-serif text-3xl font-bold mb-4 text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-2xl sm:text-3xl font-bold mb-3 md:mb-4 text-graphite-950 dark:text-ivory-50">
                 Engineering Standards
               </h2>
-              <div className="font-mono text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
+              <div className="font-mono text-[10px] sm:text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
                 CODE QUALITY
               </div>
             </div>
-            <div className="lg:col-span-8 space-y-6">
+            <div className="lg:col-span-8 space-y-4 md:space-y-6 mt-6 lg:mt-0">
               <p className="editorial-text">
                 Code quality is enforced through automated tooling, peer review, and architectural oversight.
                 Every line of code undergoes static analysis, security scanning, and test coverage validation
                 before merging. Our standards are documented in 400+ pages of internal guidelines covering
                 language-specific idioms, architectural patterns, and operational best practices.
               </p>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mt-6 md:mt-8">
                 <div className="technical-block">
-                  <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                  <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                     CODE REVIEW PROCESS
                   </h3>
                   <div className="space-y-3 text-sm text-graphite-800 dark:text-ivory-300">
@@ -151,7 +151,7 @@ export default function ResearchPage() {
                   </div>
                 </div>
                 <div className="technical-block">
-                  <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                  <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                     TESTING REQUIREMENTS
                   </h3>
                   <div className="space-y-3 text-sm text-graphite-800 dark:text-ivory-300">
@@ -185,36 +185,36 @@ export default function ResearchPage() {
                   </div>
                 </div>
               </div>
-              <div className="mt-8 grid grid-cols-1 md:grid-cols-4 gap-6">
-                <div>
-                  <div className="font-mono text-2xl font-bold text-oxide-600 dark:text-oxide-500 mb-2">
+              <div className="mt-6 md:mt-8 grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+                <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-4 sm:p-6">
+                  <div className="font-mono text-xl sm:text-2xl font-bold text-oxide-600 dark:text-oxide-500 mb-1 sm:mb-2">
                     85%
                   </div>
-                  <div className="text-sm text-graphite-700 dark:text-ivory-400">
+                  <div className="text-xs sm:text-sm text-graphite-700 dark:text-ivory-400">
                     Average test coverage across codebase
                   </div>
                 </div>
-                <div>
-                  <div className="font-mono text-2xl font-bold text-oxide-600 dark:text-oxide-500 mb-2">
+                <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-4 sm:p-6">
+                  <div className="font-mono text-xl sm:text-2xl font-bold text-oxide-600 dark:text-oxide-500 mb-1 sm:mb-2">
                     &lt;24h
                   </div>
-                  <div className="text-sm text-graphite-700 dark:text-ivory-400">
+                  <div className="text-xs sm:text-sm text-graphite-700 dark:text-ivory-400">
                     Median code review turnaround
                   </div>
                 </div>
-                <div>
-                  <div className="font-mono text-2xl font-bold text-oxide-600 dark:text-oxide-500 mb-2">
+                <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-4 sm:p-6">
+                  <div className="font-mono text-xl sm:text-2xl font-bold text-oxide-600 dark:text-oxide-500 mb-1 sm:mb-2">
                     0.08%
                   </div>
-                  <div className="text-sm text-graphite-700 dark:text-ivory-400">
+                  <div className="text-xs sm:text-sm text-graphite-700 dark:text-ivory-400">
                     Post-deployment defect rate
                   </div>
                 </div>
-                <div>
-                  <div className="font-mono text-2xl font-bold text-oxide-600 dark:text-oxide-500 mb-2">
+                <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-4 sm:p-6">
+                  <div className="font-mono text-xl sm:text-2xl font-bold text-oxide-600 dark:text-oxide-500 mb-1 sm:mb-2">
                     6,400
                   </div>
-                  <div className="text-sm text-graphite-700 dark:text-ivory-400">
+                  <div className="text-xs sm:text-sm text-graphite-700 dark:text-ivory-400">
                     Automated tests executed per commit
                   </div>
                 </div>
@@ -226,26 +226,26 @@ export default function ResearchPage() {
 
       {/* AI Ethics & Governance */}
       <section id="ethics" className="border-b border-industrial-300 dark:border-industrial-700">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="content-grid">
             <div className="lg:col-span-4">
-              <h2 className="font-serif text-3xl font-bold mb-4 text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-2xl sm:text-3xl font-bold mb-3 md:mb-4 text-graphite-950 dark:text-ivory-50">
                 AI Ethics & Governance
               </h2>
-              <div className="font-mono text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
+              <div className="font-mono text-[10px] sm:text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
                 RESPONSIBLE AI
               </div>
             </div>
-            <div className="lg:col-span-8 space-y-6">
+            <div className="lg:col-span-8 space-y-4 md:space-y-6 mt-6 lg:mt-0">
               <p className="editorial-text">
                 Artificial intelligence systems deployed at scale have societal consequences. Our AI
                 governance framework addresses fairness, accountability, transparency, and safety through
                 technical controls and organizational oversight. We reject the notion that AI systems are
                 neutral—they reflect the values embedded in their design and training data.
               </p>
-              <div className="space-y-6 mt-8">
-                <div className="border-l-4 border-oxide-600 dark:border-oxide-500 pl-6">
-                  <h3 className="font-sans text-lg font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+              <div className="space-y-4 md:space-y-6 mt-6 md:mt-8">
+                <div className="border-l-4 border-oxide-600 dark:border-oxide-500 pl-4 md:pl-6">
+                  <h3 className="font-sans text-base md:text-lg font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                     Fairness & Bias Mitigation
                   </h3>
                   <p className="text-sm text-graphite-800 dark:text-ivory-300 leading-relaxed mb-3">
@@ -260,8 +260,8 @@ export default function ResearchPage() {
                   </ul>
                 </div>
 
-                <div className="border-l-4 border-oxide-600 dark:border-oxide-500 pl-6">
-                  <h3 className="font-sans text-lg font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                <div className="border-l-4 border-oxide-600 dark:border-oxide-500 pl-4 md:pl-6">
+                  <h3 className="font-sans text-base md:text-lg font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                     Explainability & Transparency
                   </h3>
                   <p className="text-sm text-graphite-800 dark:text-ivory-300 leading-relaxed mb-3">
@@ -276,8 +276,8 @@ export default function ResearchPage() {
                   </ul>
                 </div>
 
-                <div className="border-l-4 border-oxide-600 dark:border-oxide-500 pl-6">
-                  <h3 className="font-sans text-lg font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                <div className="border-l-4 border-oxide-600 dark:border-oxide-500 pl-4 md:pl-6">
+                  <h3 className="font-sans text-base md:text-lg font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                     Privacy-Preserving ML
                   </h3>
                   <p className="text-sm text-graphite-800 dark:text-ivory-300 leading-relaxed mb-3">
@@ -292,8 +292,8 @@ export default function ResearchPage() {
                   </ul>
                 </div>
 
-                <div className="border-l-4 border-oxide-600 dark:border-oxide-500 pl-6">
-                  <h3 className="font-sans text-lg font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                <div className="border-l-4 border-oxide-600 dark:border-oxide-500 pl-4 md:pl-6">
+                  <h3 className="font-sans text-base md:text-lg font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                     Safety & Robustness
                   </h3>
                   <p className="text-sm text-graphite-800 dark:text-ivory-300 leading-relaxed mb-3">
@@ -315,24 +315,24 @@ export default function ResearchPage() {
 
       {/* Reliability Engineering */}
       <section className="border-b border-industrial-300 dark:border-industrial-700">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="content-grid">
             <div className="lg:col-span-4">
-              <h2 className="font-serif text-3xl font-bold mb-4 text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-2xl sm:text-3xl font-bold mb-3 md:mb-4 text-graphite-950 dark:text-ivory-50">
                 Reliability Engineering
               </h2>
-              <div className="font-mono text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
+              <div className="font-mono text-[10px] sm:text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
                 SRE PRACTICES
               </div>
             </div>
-            <div className="lg:col-span-8 space-y-6">
+            <div className="lg:col-span-8 space-y-4 md:space-y-6 mt-6 lg:mt-0">
               <p className="editorial-text">
                 Site Reliability Engineering (SRE) teams ensure production systems meet availability,
                 latency, and correctness targets. SRE operates as a bridge between development and
                 operations, applying software engineering principles to infrastructure problems.
               </p>
-              <div className="technical-block mt-8">
-                <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+              <div className="technical-block mt-6 md:mt-8">
+                <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                   SRE PRINCIPLES
                 </h3>
                 <div className="space-y-4 text-sm text-graphite-800 dark:text-ivory-300">
@@ -359,36 +359,36 @@ export default function ResearchPage() {
                   </p>
                 </div>
               </div>
-              <div className="mt-8 grid grid-cols-1 md:grid-cols-4 gap-6">
-                <div>
-                  <div className="font-mono text-2xl font-bold text-oxide-600 dark:text-oxide-500 mb-2">
+              <div className="mt-6 md:mt-8 grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+                <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-4 sm:p-6">
+                  <div className="font-mono text-xl sm:text-2xl font-bold text-oxide-600 dark:text-oxide-500 mb-1 sm:mb-2">
                     99.97%
                   </div>
-                  <div className="text-sm text-graphite-700 dark:text-ivory-400">
+                  <div className="text-xs sm:text-sm text-graphite-700 dark:text-ivory-400">
                     Actual uptime (exceeds 99.95% SLA)
                   </div>
                 </div>
-                <div>
-                  <div className="font-mono text-2xl font-bold text-oxide-600 dark:text-oxide-500 mb-2">
+                <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-4 sm:p-6">
+                  <div className="font-mono text-xl sm:text-2xl font-bold text-oxide-600 dark:text-oxide-500 mb-1 sm:mb-2">
                     14min
                   </div>
-                  <div className="text-sm text-graphite-700 dark:text-ivory-400">
+                  <div className="text-xs sm:text-sm text-graphite-700 dark:text-ivory-400">
                     Mean time to detection (MTTD)
                   </div>
                 </div>
-                <div>
-                  <div className="font-mono text-2xl font-bold text-oxide-600 dark:text-oxide-500 mb-2">
+                <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-4 sm:p-6">
+                  <div className="font-mono text-xl sm:text-2xl font-bold text-oxide-600 dark:text-oxide-500 mb-1 sm:mb-2">
                     38min
                   </div>
-                  <div className="text-sm text-graphite-700 dark:text-ivory-400">
+                  <div className="text-xs sm:text-sm text-graphite-700 dark:text-ivory-400">
                     Mean time to recovery (MTTR)
                   </div>
                 </div>
-                <div>
-                  <div className="font-mono text-2xl font-bold text-oxide-600 dark:text-oxide-500 mb-2">
+                <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-4 sm:p-6">
+                  <div className="font-mono text-xl sm:text-2xl font-bold text-oxide-600 dark:text-oxide-500 mb-1 sm:mb-2">
                     72%
                   </div>
-                  <div className="text-sm text-graphite-700 dark:text-ivory-400">
+                  <div className="text-xs sm:text-sm text-graphite-700 dark:text-ivory-400">
                     Toil reduction vs previous year
                   </div>
                 </div>
@@ -400,25 +400,25 @@ export default function ResearchPage() {
 
       {/* Continuous Learning */}
       <section>
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="content-grid">
             <div className="lg:col-span-4">
-              <h2 className="font-serif text-3xl font-bold mb-4 text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-2xl sm:text-3xl font-bold mb-3 md:mb-4 text-graphite-950 dark:text-ivory-50">
                 Continuous Learning
               </h2>
-              <div className="font-mono text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
+              <div className="font-mono text-[10px] sm:text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
                 KNOWLEDGE SYSTEMS
               </div>
             </div>
-            <div className="lg:col-span-8 space-y-6">
+            <div className="lg:col-span-8 space-y-4 md:space-y-6 mt-6 lg:mt-0">
               <p className="editorial-text">
                 Technical excellence requires continuous skill development. FORGECORE engineers spend 20%
                 of working time on learning activities: reading research papers, attending conferences,
                 contributing to open source, and internal knowledge sharing.
               </p>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mt-6 md:mt-8">
                 <div className="technical-block">
-                  <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                  <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                     INTERNAL PROGRAMS
                   </h3>
                   <ul className="space-y-2 text-sm text-graphite-800 dark:text-ivory-300">
@@ -430,7 +430,7 @@ export default function ResearchPage() {
                   </ul>
                 </div>
                 <div className="technical-block">
-                  <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                  <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                     EXTERNAL ENGAGEMENT
                   </h3>
                   <ul className="space-y-2 text-sm text-graphite-800 dark:text-ivory-300">
@@ -442,14 +442,14 @@ export default function ResearchPage() {
                   </ul>
                 </div>
               </div>
-              <div className="mt-8 bg-graphite-900 dark:bg-graphite-800 border border-industrial-700 p-8">
-                <blockquote className="text-ivory-200 text-lg leading-relaxed italic">
+              <div className="mt-6 md:mt-8 bg-graphite-900 dark:bg-graphite-800 border border-industrial-700 p-6 md:p-8">
+                <blockquote className="text-ivory-200 text-base md:text-lg leading-relaxed italic">
                   "We hire engineers who are curious about systems that don't yet exist. The best
                   infrastructure engineers are those who read computer science papers for enjoyment,
                   who debate consensus algorithms over coffee, who see elegance in well-designed APIs.
                   Technical depth is not optional—it is the foundation of everything we build."
                 </blockquote>
-                <div className="mt-6 text-sm text-ivory-400 font-mono tracking-wide">
+                <div className="mt-4 md:mt-6 text-xs md:text-sm text-ivory-400 font-mono tracking-wide">
                   — DR. HELENA VOSS, CHIEF TECHNOLOGY OFFICER
                 </div>
               </div>

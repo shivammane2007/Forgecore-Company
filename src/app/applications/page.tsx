@@ -3,15 +3,15 @@ export default function ApplicationsPage() {
     <div className="min-h-screen">
       {/* Page Header */}
       <section className="border-b border-industrial-300 dark:border-industrial-700 bg-graphite-900 dark:bg-graphite-900 text-ivory-100">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="max-w-4xl">
-            <div className="font-mono text-xs font-bold tracking-widest text-oxide-500 mb-8">
+            <div className="font-mono text-[10px] sm:text-xs font-bold tracking-widest text-oxide-500 mb-6 md:mb-8">
               04 — INDUSTRY APPLICATIONS
             </div>
-            <h1 className="font-serif text-5xl lg:text-6xl font-bold leading-tight mb-8">
+            <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6 md:mb-8 text-balance">
               Sector-Specific Infrastructure Implementations and Measurable Outcomes
             </h1>
-            <p className="text-xl text-ivory-300 leading-relaxed">
+            <p className="text-lg md:text-xl text-ivory-300 leading-relaxed">
               Detailed analysis of core challenges, system solutions, and quantifiable business impact
               across six critical industries where FORGECORE maintains active deployments.
             </p>
@@ -21,13 +21,13 @@ export default function ApplicationsPage() {
 
       {/* Finance */}
       <section id="finance" className="border-b border-industrial-300 dark:border-industrial-700">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="content-grid">
             <div className="lg:col-span-4">
-              <div className="font-mono text-xs font-bold tracking-widest text-oxide-600 dark:text-oxide-500 mb-4">
+              <div className="font-mono text-[10px] sm:text-xs font-bold tracking-widest text-oxide-600 dark:text-oxide-500 mb-3 md:mb-4">
                 INDUSTRY 01
               </div>
-              <h2 className="font-serif text-4xl font-bold mb-6 text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-graphite-950 dark:text-ivory-50">
                 Financial Services
               </h2>
               <p className="text-sm text-graphite-700 dark:text-ivory-400 leading-relaxed">
@@ -35,9 +35,9 @@ export default function ApplicationsPage() {
                 regulatory reporting for global financial institutions.
               </p>
             </div>
-            <div className="lg:col-span-8 space-y-8">
+            <div className="lg:col-span-8 space-y-6 md:space-y-8 mt-8 lg:mt-0">
               <div>
-                <h3 className="font-sans text-xl font-semibold mb-4 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg md:text-xl font-semibold mb-3 md:mb-4 text-graphite-900 dark:text-ivory-100">
                   Core Challenge
                 </h3>
                 <p className="editorial-text mb-4">
@@ -55,11 +55,11 @@ export default function ApplicationsPage() {
               </div>
 
               <div>
-                <h3 className="font-sans text-xl font-semibold mb-4 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg md:text-xl font-semibold mb-3 md:mb-4 text-graphite-900 dark:text-ivory-100">
                   System Solution
                 </h3>
-                <div className="technical-block mb-6">
-                  <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                <div className="technical-block mb-4 md:mb-6">
+                  <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                     TRADING INFRASTRUCTURE
                   </h4>
                   <ul className="space-y-2 text-sm text-graphite-800 dark:text-ivory-300">
@@ -70,8 +70,8 @@ export default function ApplicationsPage() {
                     <li>→ Direct market access (DMA) with exchange co-location</li>
                   </ul>
                 </div>
-                <div className="technical-block mb-6">
-                  <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                <div className="technical-block mb-4 md:mb-6">
+                  <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                     PAYMENT PROCESSING
                   </h4>
                   <ul className="space-y-2 text-sm text-graphite-800 dark:text-ivory-300">
@@ -83,7 +83,7 @@ export default function ApplicationsPage() {
                   </ul>
                 </div>
                 <div className="technical-block">
-                  <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                  <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                     REGULATORY COMPLIANCE
                   </h4>
                   <ul className="space-y-2 text-sm text-graphite-800 dark:text-ivory-300">
@@ -97,28 +97,28 @@ export default function ApplicationsPage() {
               </div>
 
               <div>
-                <h3 className="font-sans text-xl font-semibold mb-4 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg md:text-xl font-semibold mb-3 md:mb-4 text-graphite-900 dark:text-ivory-100">
                   Measurable Outcomes
                 </h3>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                  <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-6">
-                    <div className="font-mono text-3xl font-bold text-oxide-600 dark:text-oxide-500 mb-2">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-6">
+                  <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-4 sm:p-6">
+                    <div className="font-mono text-2xl sm:text-3xl font-bold text-oxide-600 dark:text-oxide-500 mb-1 sm:mb-2">
                       $4.2B
                     </div>
                     <div className="text-sm text-graphite-800 dark:text-ivory-300">
                       Daily transaction volume processed
                     </div>
                   </div>
-                  <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-6">
-                    <div className="font-mono text-3xl font-bold text-oxide-600 dark:text-oxide-500 mb-2">
+                  <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-4 sm:p-6">
+                    <div className="font-mono text-2xl sm:text-3xl font-bold text-oxide-600 dark:text-oxide-500 mb-1 sm:mb-2">
                       420μs
                     </div>
                     <div className="text-sm text-graphite-800 dark:text-ivory-300">
                       Average order execution latency
                     </div>
                   </div>
-                  <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-6">
-                    <div className="font-mono text-3xl font-bold text-oxide-600 dark:text-oxide-500 mb-2">
+                  <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-4 sm:p-6">
+                    <div className="font-mono text-2xl sm:text-3xl font-bold text-oxide-600 dark:text-oxide-500 mb-1 sm:mb-2">
                       99.8%
                     </div>
                     <div className="text-sm text-graphite-800 dark:text-ivory-300">
@@ -134,13 +134,13 @@ export default function ApplicationsPage() {
 
       {/* Healthcare */}
       <section id="healthcare" className="border-b border-industrial-300 dark:border-industrial-700">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="content-grid">
             <div className="lg:col-span-4">
-              <div className="font-mono text-xs font-bold tracking-widest text-oxide-600 dark:text-oxide-500 mb-4">
+              <div className="font-mono text-[10px] sm:text-xs font-bold tracking-widest text-oxide-600 dark:text-oxide-500 mb-3 md:mb-4">
                 INDUSTRY 02
               </div>
-              <h2 className="font-serif text-4xl font-bold mb-6 text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-graphite-950 dark:text-ivory-50">
                 Healthcare & Life Sciences
               </h2>
               <p className="text-sm text-graphite-700 dark:text-ivory-400 leading-relaxed">
@@ -148,9 +148,9 @@ export default function ApplicationsPage() {
                 research, and population health management.
               </p>
             </div>
-            <div className="lg:col-span-8 space-y-8">
+            <div className="lg:col-span-8 space-y-6 md:space-y-8 mt-8 lg:mt-0">
               <div>
-                <h3 className="font-sans text-xl font-semibold mb-4 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg md:text-xl font-semibold mb-3 md:mb-4 text-graphite-900 dark:text-ivory-100">
                   Core Challenge
                 </h3>
                 <p className="editorial-text mb-4">
@@ -168,11 +168,11 @@ export default function ApplicationsPage() {
               </div>
 
               <div>
-                <h3 className="font-sans text-xl font-semibold mb-4 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg md:text-xl font-semibold mb-3 md:mb-4 text-graphite-900 dark:text-ivory-100">
                   System Solution
                 </h3>
-                <div className="technical-block mb-6">
-                  <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                <div className="technical-block mb-4 md:mb-6">
+                  <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                     CLINICAL DATA PLATFORM
                   </h4>
                   <ul className="space-y-2 text-sm text-graphite-800 dark:text-ivory-300">
@@ -183,8 +183,8 @@ export default function ApplicationsPage() {
                     <li>→ Consent management tracking patient authorization for data sharing</li>
                   </ul>
                 </div>
-                <div className="technical-block mb-6">
-                  <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                <div className="technical-block mb-4 md:mb-6">
+                  <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                     MEDICAL IMAGING
                   </h4>
                   <ul className="space-y-2 text-sm text-graphite-800 dark:text-ivory-300">
@@ -196,7 +196,7 @@ export default function ApplicationsPage() {
                   </ul>
                 </div>
                 <div className="technical-block">
-                  <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                  <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                     RESEARCH INFRASTRUCTURE
                   </h4>
                   <ul className="space-y-2 text-sm text-graphite-800 dark:text-ivory-300">
@@ -210,28 +210,28 @@ export default function ApplicationsPage() {
               </div>
 
               <div>
-                <h3 className="font-sans text-xl font-semibold mb-4 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg md:text-xl font-semibold mb-3 md:mb-4 text-graphite-900 dark:text-ivory-100">
                   Measurable Outcomes
                 </h3>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                  <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-6">
-                    <div className="font-mono text-3xl font-bold text-oxide-600 dark:text-oxide-500 mb-2">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-6">
+                  <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-4 sm:p-6">
+                    <div className="font-mono text-2xl sm:text-3xl font-bold text-oxide-600 dark:text-oxide-500 mb-1 sm:mb-2">
                       24M
                     </div>
                     <div className="text-sm text-graphite-800 dark:text-ivory-300">
                       Patient records managed across network
                     </div>
                   </div>
-                  <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-6">
-                    <div className="font-mono text-3xl font-bold text-oxide-600 dark:text-oxide-500 mb-2">
+                  <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-4 sm:p-6">
+                    <div className="font-mono text-2xl sm:text-3xl font-bold text-oxide-600 dark:text-oxide-500 mb-1 sm:mb-2">
                       8.2PB
                     </div>
                     <div className="text-sm text-graphite-800 dark:text-ivory-300">
                       Medical imaging data stored
                     </div>
                   </div>
-                  <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-6">
-                    <div className="font-mono text-3xl font-bold text-oxide-600 dark:text-oxide-500 mb-2">
+                  <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-4 sm:p-6">
+                    <div className="font-mono text-2xl sm:text-3xl font-bold text-oxide-600 dark:text-oxide-500 mb-1 sm:mb-2">
                       40%
                     </div>
                     <div className="text-sm text-graphite-800 dark:text-ivory-300">
@@ -247,13 +247,13 @@ export default function ApplicationsPage() {
 
       {/* Manufacturing */}
       <section id="manufacturing" className="border-b border-industrial-300 dark:border-industrial-700">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="content-grid">
             <div className="lg:col-span-4">
-              <div className="font-mono text-xs font-bold tracking-widest text-oxide-600 dark:text-oxide-500 mb-4">
+              <div className="font-mono text-[10px] sm:text-xs font-bold tracking-widest text-oxide-600 dark:text-oxide-500 mb-3 md:mb-4">
                 INDUSTRY 03
               </div>
-              <h2 className="font-serif text-4xl font-bold mb-6 text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-graphite-950 dark:text-ivory-50">
                 Manufacturing & Supply Chain
               </h2>
               <p className="text-sm text-graphite-700 dark:text-ivory-400 leading-relaxed">
@@ -261,9 +261,9 @@ export default function ApplicationsPage() {
                 and global logistics coordination.
               </p>
             </div>
-            <div className="lg:col-span-8 space-y-8">
+            <div className="lg:col-span-8 space-y-6 md:space-y-8 mt-8 lg:mt-0">
               <div>
-                <h3 className="font-sans text-xl font-semibold mb-4 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg md:text-xl font-semibold mb-3 md:mb-4 text-graphite-900 dark:text-ivory-100">
                   Core Challenge
                 </h3>
                 <p className="editorial-text mb-4">
@@ -281,11 +281,11 @@ export default function ApplicationsPage() {
               </div>
 
               <div>
-                <h3 className="font-sans text-xl font-semibold mb-4 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg md:text-xl font-semibold mb-3 md:mb-4 text-graphite-900 dark:text-ivory-100">
                   System Solution
                 </h3>
-                <div className="technical-block mb-6">
-                  <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                <div className="technical-block mb-4 md:mb-6">
+                  <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                     INDUSTRIAL IOT PLATFORM
                   </h4>
                   <ul className="space-y-2 text-sm text-graphite-800 dark:text-ivory-300">
@@ -296,8 +296,8 @@ export default function ApplicationsPage() {
                     <li>→ Production optimization using reinforcement learning algorithms</li>
                   </ul>
                 </div>
-                <div className="technical-block mb-6">
-                  <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                <div className="technical-block mb-4 md:mb-6">
+                  <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                     SUPPLY CHAIN VISIBILITY
                   </h4>
                   <ul className="space-y-2 text-sm text-graphite-800 dark:text-ivory-300">
@@ -309,7 +309,7 @@ export default function ApplicationsPage() {
                   </ul>
                 </div>
                 <div className="technical-block">
-                  <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                  <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                     PRODUCTION SYSTEMS
                   </h4>
                   <ul className="space-y-2 text-sm text-graphite-800 dark:text-ivory-300">
@@ -323,28 +323,28 @@ export default function ApplicationsPage() {
               </div>
 
               <div>
-                <h3 className="font-sans text-xl font-semibold mb-4 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg md:text-xl font-semibold mb-3 md:mb-4 text-graphite-900 dark:text-ivory-100">
                   Measurable Outcomes
                 </h3>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                  <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-6">
-                    <div className="font-mono text-3xl font-bold text-oxide-600 dark:text-oxide-500 mb-2">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-6">
+                  <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-4 sm:p-6">
+                    <div className="font-mono text-2xl sm:text-3xl font-bold text-oxide-600 dark:text-oxide-500 mb-1 sm:mb-2">
                       32%
                     </div>
                     <div className="text-sm text-graphite-800 dark:text-ivory-300">
                       Reduction in unplanned downtime
                     </div>
                   </div>
-                  <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-6">
-                    <div className="font-mono text-3xl font-bold text-oxide-600 dark:text-oxide-500 mb-2">
+                  <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-4 sm:p-6">
+                    <div className="font-mono text-2xl sm:text-3xl font-bold text-oxide-600 dark:text-oxide-500 mb-1 sm:mb-2">
                       18%
                     </div>
                     <div className="text-sm text-graphite-800 dark:text-ivory-300">
                       Improvement in OEE metrics
                     </div>
                   </div>
-                  <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-6">
-                    <div className="font-mono text-3xl font-bold text-oxide-600 dark:text-oxide-500 mb-2">
+                  <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-4 sm:p-6">
+                    <div className="font-mono text-2xl sm:text-3xl font-bold text-oxide-600 dark:text-oxide-500 mb-1 sm:mb-2">
                       $2.1M
                     </div>
                     <div className="text-sm text-graphite-800 dark:text-ivory-300">
@@ -360,13 +360,13 @@ export default function ApplicationsPage() {
 
       {/* Government */}
       <section id="government" className="border-b border-industrial-300 dark:border-industrial-700">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="content-grid">
             <div className="lg:col-span-4">
-              <div className="font-mono text-xs font-bold tracking-widest text-oxide-600 dark:text-oxide-500 mb-4">
+              <div className="font-mono text-[10px] sm:text-xs font-bold tracking-widest text-oxide-600 dark:text-oxide-500 mb-3 md:mb-4">
                 INDUSTRY 04
               </div>
-              <h2 className="font-serif text-4xl font-bold mb-6 text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-graphite-950 dark:text-ivory-50">
                 Government & Public Sector
               </h2>
               <p className="text-sm text-graphite-700 dark:text-ivory-400 leading-relaxed">
@@ -374,9 +374,9 @@ export default function ApplicationsPage() {
                 and citizen services platforms.
               </p>
             </div>
-            <div className="lg:col-span-8 space-y-8">
+            <div className="lg:col-span-8 space-y-6 md:space-y-8 mt-8 lg:mt-0">
               <div>
-                <h3 className="font-sans text-xl font-semibold mb-4 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg md:text-xl font-semibold mb-3 md:mb-4 text-graphite-900 dark:text-ivory-100">
                   Core Challenge
                 </h3>
                 <p className="editorial-text mb-4">
@@ -394,11 +394,11 @@ export default function ApplicationsPage() {
               </div>
 
               <div>
-                <h3 className="font-sans text-xl font-semibold mb-4 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg md:text-xl font-semibold mb-3 md:mb-4 text-graphite-900 dark:text-ivory-100">
                   System Solution
                 </h3>
-                <div className="technical-block mb-6">
-                  <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                <div className="technical-block mb-4 md:mb-6">
+                  <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                     CITIZEN SERVICES
                   </h4>
                   <ul className="space-y-2 text-sm text-graphite-800 dark:text-ivory-300">
@@ -409,8 +409,8 @@ export default function ApplicationsPage() {
                     <li>→ Privacy-preserving analytics measuring service effectiveness</li>
                   </ul>
                 </div>
-                <div className="technical-block mb-6">
-                  <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                <div className="technical-block mb-4 md:mb-6">
+                  <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                     PUBLIC SAFETY
                   </h4>
                   <ul className="space-y-2 text-sm text-graphite-800 dark:text-ivory-300">
@@ -422,7 +422,7 @@ export default function ApplicationsPage() {
                   </ul>
                 </div>
                 <div className="technical-block">
-                  <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                  <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                     INFRASTRUCTURE MONITORING
                   </h4>
                   <ul className="space-y-2 text-sm text-graphite-800 dark:text-ivory-300">
@@ -436,28 +436,28 @@ export default function ApplicationsPage() {
               </div>
 
               <div>
-                <h3 className="font-sans text-xl font-semibold mb-4 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg md:text-xl font-semibold mb-3 md:mb-4 text-graphite-900 dark:text-ivory-100">
                   Measurable Outcomes
                 </h3>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                  <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-6">
-                    <div className="font-mono text-3xl font-bold text-oxide-600 dark:text-oxide-500 mb-2">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-6">
+                  <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-4 sm:p-6">
+                    <div className="font-mono text-2xl sm:text-3xl font-bold text-oxide-600 dark:text-oxide-500 mb-1 sm:mb-2">
                       8.4M
                     </div>
                     <div className="text-sm text-graphite-800 dark:text-ivory-300">
                       Citizens served through digital platforms
                     </div>
                   </div>
-                  <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-6">
-                    <div className="font-mono text-3xl font-bold text-oxide-600 dark:text-oxide-500 mb-2">
+                  <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-4 sm:p-6">
+                    <div className="font-mono text-2xl sm:text-3xl font-bold text-oxide-600 dark:text-oxide-500 mb-1 sm:mb-2">
                       45sec
                     </div>
                     <div className="text-sm text-graphite-800 dark:text-ivory-300">
                       Average emergency dispatch time
                     </div>
                   </div>
-                  <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-6">
-                    <div className="font-mono text-3xl font-bold text-oxide-600 dark:text-oxide-500 mb-2">
+                  <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-4 sm:p-6">
+                    <div className="font-mono text-2xl sm:text-3xl font-bold text-oxide-600 dark:text-oxide-500 mb-1 sm:mb-2">
                       28%
                     </div>
                     <div className="text-sm text-graphite-800 dark:text-ivory-300">
@@ -473,13 +473,13 @@ export default function ApplicationsPage() {
 
       {/* Energy & Utilities */}
       <section id="energy" className="border-b border-industrial-300 dark:border-industrial-700">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="content-grid">
             <div className="lg:col-span-4">
-              <div className="font-mono text-xs font-bold tracking-widest text-oxide-600 dark:text-oxide-500 mb-4">
+              <div className="font-mono text-[10px] sm:text-xs font-bold tracking-widest text-oxide-600 dark:text-oxide-500 mb-3 md:mb-4">
                 INDUSTRY 05
               </div>
-              <h2 className="font-serif text-4xl font-bold mb-6 text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-graphite-950 dark:text-ivory-50">
                 Energy & Utilities
               </h2>
               <p className="text-sm text-graphite-700 dark:text-ivory-400 leading-relaxed">
@@ -487,9 +487,9 @@ export default function ApplicationsPage() {
                 critical infrastructure protection.
               </p>
             </div>
-            <div className="lg:col-span-8 space-y-8">
+            <div className="lg:col-span-8 space-y-6 md:space-y-8 mt-8 lg:mt-0">
               <div>
-                <h3 className="font-sans text-xl font-semibold mb-4 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg md:text-xl font-semibold mb-3 md:mb-4 text-graphite-900 dark:text-ivory-100">
                   Core Challenge
                 </h3>
                 <p className="editorial-text mb-4">
@@ -507,11 +507,11 @@ export default function ApplicationsPage() {
               </div>
 
               <div>
-                <h3 className="font-sans text-xl font-semibold mb-4 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg md:text-xl font-semibold mb-3 md:mb-4 text-graphite-900 dark:text-ivory-100">
                   System Solution
                 </h3>
-                <div className="technical-block mb-6">
-                  <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                <div className="technical-block mb-4 md:mb-6">
+                  <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                     SMART GRID MANAGEMENT
                   </h4>
                   <ul className="space-y-2 text-sm text-graphite-800 dark:text-ivory-300">
@@ -522,8 +522,8 @@ export default function ApplicationsPage() {
                     <li>→ Energy trading platforms optimizing wholesale market participation</li>
                   </ul>
                 </div>
-                <div className="technical-block mb-6">
-                  <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                <div className="technical-block mb-4 md:mb-6">
+                  <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                     OPERATIONAL TECHNOLOGY SECURITY
                   </h4>
                   <ul className="space-y-2 text-sm text-graphite-800 dark:text-ivory-300">
@@ -535,7 +535,7 @@ export default function ApplicationsPage() {
                   </ul>
                 </div>
                 <div className="technical-block">
-                  <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                  <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                     ASSET PERFORMANCE
                   </h4>
                   <ul className="space-y-2 text-sm text-graphite-800 dark:text-ivory-300">
@@ -549,28 +549,28 @@ export default function ApplicationsPage() {
               </div>
 
               <div>
-                <h3 className="font-sans text-xl font-semibold mb-4 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg md:text-xl font-semibold mb-3 md:mb-4 text-graphite-900 dark:text-ivory-100">
                   Measurable Outcomes
                 </h3>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                  <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-6">
-                    <div className="font-mono text-3xl font-bold text-oxide-600 dark:text-oxide-500 mb-2">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-6">
+                  <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-4 sm:p-6">
+                    <div className="font-mono text-2xl sm:text-3xl font-bold text-oxide-600 dark:text-oxide-500 mb-1 sm:mb-2">
                       15GW
                     </div>
                     <div className="text-sm text-graphite-800 dark:text-ivory-300">
                       Grid capacity under active management
                     </div>
                   </div>
-                  <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-6">
-                    <div className="font-mono text-3xl font-bold text-oxide-600 dark:text-oxide-500 mb-2">
+                  <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-4 sm:p-6">
+                    <div className="font-mono text-2xl sm:text-3xl font-bold text-oxide-600 dark:text-oxide-500 mb-1 sm:mb-2">
                       99.97%
                     </div>
                     <div className="text-sm text-graphite-800 dark:text-ivory-300">
                       System availability (SAIDI reduction)
                     </div>
                   </div>
-                  <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-6">
-                    <div className="font-mono text-3xl font-bold text-oxide-600 dark:text-oxide-500 mb-2">
+                  <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-4 sm:p-6">
+                    <div className="font-mono text-2xl sm:text-3xl font-bold text-oxide-600 dark:text-oxide-500 mb-1 sm:mb-2">
                       22%
                     </div>
                     <div className="text-sm text-graphite-800 dark:text-ivory-300">
@@ -586,13 +586,13 @@ export default function ApplicationsPage() {
 
       {/* Enterprise SaaS */}
       <section id="saas">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="content-grid">
             <div className="lg:col-span-4">
-              <div className="font-mono text-xs font-bold tracking-widest text-oxide-600 dark:text-oxide-500 mb-4">
+              <div className="font-mono text-[10px] sm:text-xs font-bold tracking-widest text-oxide-600 dark:text-oxide-500 mb-3 md:mb-4">
                 INDUSTRY 06
               </div>
-              <h2 className="font-serif text-4xl font-bold mb-6 text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-graphite-950 dark:text-ivory-50">
                 Enterprise SaaS
               </h2>
               <p className="text-sm text-graphite-700 dark:text-ivory-400 leading-relaxed">
@@ -600,9 +600,9 @@ export default function ApplicationsPage() {
                 application infrastructure.
               </p>
             </div>
-            <div className="lg:col-span-8 space-y-8">
+            <div className="lg:col-span-8 space-y-6 md:space-y-8 mt-8 lg:mt-0">
               <div>
-                <h3 className="font-sans text-xl font-semibold mb-4 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg md:text-xl font-semibold mb-3 md:mb-4 text-graphite-900 dark:text-ivory-100">
                   Core Challenge
                 </h3>
                 <p className="editorial-text mb-4">
@@ -620,11 +620,11 @@ export default function ApplicationsPage() {
               </div>
 
               <div>
-                <h3 className="font-sans text-xl font-semibold mb-4 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg md:text-xl font-semibold mb-3 md:mb-4 text-graphite-900 dark:text-ivory-100">
                   System Solution
                 </h3>
-                <div className="technical-block mb-6">
-                  <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                <div className="technical-block mb-4 md:mb-6">
+                  <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                     MULTI-TENANT ARCHITECTURE
                   </h4>
                   <ul className="space-y-2 text-sm text-graphite-800 dark:text-ivory-300">
@@ -635,8 +635,8 @@ export default function ApplicationsPage() {
                     <li>→ Zero-downtime schema migrations across all tenants</li>
                   </ul>
                 </div>
-                <div className="technical-block mb-6">
-                  <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                <div className="technical-block mb-4 md:mb-6">
+                  <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                     PLATFORM SCALABILITY
                   </h4>
                   <ul className="space-y-2 text-sm text-graphite-800 dark:text-ivory-300">
@@ -648,7 +648,7 @@ export default function ApplicationsPage() {
                   </ul>
                 </div>
                 <div className="technical-block">
-                  <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                  <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                     OBSERVABILITY
                   </h4>
                   <ul className="space-y-2 text-sm text-graphite-800 dark:text-ivory-300">
@@ -662,28 +662,28 @@ export default function ApplicationsPage() {
               </div>
 
               <div>
-                <h3 className="font-sans text-xl font-semibold mb-4 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg md:text-xl font-semibold mb-3 md:mb-4 text-graphite-900 dark:text-ivory-100">
                   Measurable Outcomes
                 </h3>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                  <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-6">
-                    <div className="font-mono text-3xl font-bold text-oxide-600 dark:text-oxide-500 mb-2">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-6">
+                  <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-4 sm:p-6">
+                    <div className="font-mono text-2xl sm:text-3xl font-bold text-oxide-600 dark:text-oxide-500 mb-1 sm:mb-2">
                       12,400
                     </div>
                     <div className="text-sm text-graphite-800 dark:text-ivory-300">
                       Enterprise tenants on shared platform
                     </div>
                   </div>
-                  <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-6">
-                    <div className="font-mono text-3xl font-bold text-oxide-600 dark:text-oxide-500 mb-2">
+                  <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-4 sm:p-6">
+                    <div className="font-mono text-2xl sm:text-3xl font-bold text-oxide-600 dark:text-oxide-500 mb-1 sm:mb-2">
                       10x
                     </div>
                     <div className="text-sm text-graphite-800 dark:text-ivory-300">
                       Infrastructure efficiency vs single-tenant
                     </div>
                   </div>
-                  <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-6">
-                    <div className="font-mono text-3xl font-bold text-oxide-600 dark:text-oxide-500 mb-2">
+                  <div className="bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-4 sm:p-6">
+                    <div className="font-mono text-2xl sm:text-3xl font-bold text-oxide-600 dark:text-oxide-500 mb-1 sm:mb-2">
                       99.95%
                     </div>
                     <div className="text-sm text-graphite-800 dark:text-ivory-300">

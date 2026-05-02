@@ -29,15 +29,15 @@ export default function ContactPage() {
     <div className="min-h-screen">
       {/* Page Header */}
       <section className="border-b border-industrial-300 dark:border-industrial-700 bg-graphite-900 dark:bg-graphite-900 text-ivory-100">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="max-w-4xl">
-            <div className="font-mono text-xs font-bold tracking-widest text-oxide-500 mb-8">
+            <div className="font-mono text-[10px] sm:text-xs font-bold tracking-widest text-oxide-500 mb-6 md:mb-8">
               07 — ENTERPRISE CONTACT & LEGAL
             </div>
-            <h1 className="font-serif text-5xl lg:text-6xl font-bold leading-tight mb-8">
+            <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6 md:mb-8 text-balance">
               Structured Inquiry System, Global Offices, and Legal Framework
             </h1>
-            <p className="text-xl text-ivory-300 leading-relaxed">
+            <p className="text-lg md:text-xl text-ivory-300 leading-relaxed">
               Enterprise procurement inquiries, technical evaluations, partnership proposals, and
               compliance documentation access for qualified organizations.
             </p>
@@ -47,9 +47,9 @@ export default function ContactPage() {
 
       {/* Enterprise Contact Form */}
       <section className="border-b border-industrial-300 dark:border-industrial-700">
-        <div className="max-w-4xl mx-auto px-6 lg:px-12 py-24">
-          <div className="mb-12">
-            <h2 className="font-serif text-3xl font-bold mb-4 text-graphite-950 dark:text-ivory-50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
+          <div className="mb-8 md:mb-12">
+            <h2 className="font-serif text-2xl sm:text-3xl font-bold mb-3 md:mb-4 text-graphite-950 dark:text-ivory-50">
               Enterprise Inquiry Form
             </h2>
             <p className="editorial-text">
@@ -59,16 +59,16 @@ export default function ContactPage() {
             </p>
           </div>
 
-          <form onSubmit={handleSubmit} className="space-y-8">
+          <form onSubmit={handleSubmit} className="space-y-6 md:space-y-8">
             {/* Organization Type */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
               <div>
-                <label className="block font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3">
+                <label className="block font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-2 md:mb-3">
                   ORGANIZATION TYPE *
                 </label>
                 <select
                   required
-                  className="w-full px-4 py-3 bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 text-graphite-900 dark:text-ivory-100 focus:outline-none focus:border-oxide-600"
+                  className="w-full px-3 py-3 sm:px-4 sm:py-3 text-sm sm:text-base bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 text-graphite-900 dark:text-ivory-100 focus:outline-none focus:border-oxide-600"
                   value={formData.organizationType}
                   onChange={(e) => setFormData({ ...formData, organizationType: e.target.value })}
                 >
@@ -82,12 +82,12 @@ export default function ContactPage() {
                 </select>
               </div>
               <div>
-                <label className="block font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3">
+                <label className="block font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-2 md:mb-3">
                   DEPARTMENT *
                 </label>
                 <select
                   required
-                  className="w-full px-4 py-3 bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 text-graphite-900 dark:text-ivory-100 focus:outline-none focus:border-oxide-600"
+                  className="w-full px-3 py-3 sm:px-4 sm:py-3 text-sm sm:text-base bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 text-graphite-900 dark:text-ivory-100 focus:outline-none focus:border-oxide-600"
                   value={formData.department}
                   onChange={(e) => setFormData({ ...formData, department: e.target.value })}
                 >
@@ -103,81 +103,81 @@ export default function ContactPage() {
             </div>
 
             {/* Contact Information */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
               <div>
-                <label className="block font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3">
+                <label className="block font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-2 md:mb-3">
                   FIRST NAME *
                 </label>
                 <input
                   type="text"
                   required
-                  className="w-full px-4 py-3 bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 text-graphite-900 dark:text-ivory-100 focus:outline-none focus:border-oxide-600"
+                  className="w-full px-3 py-3 sm:px-4 sm:py-3 text-sm sm:text-base bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 text-graphite-900 dark:text-ivory-100 focus:outline-none focus:border-oxide-600"
                   value={formData.firstName}
                   onChange={(e) => setFormData({ ...formData, firstName: e.target.value })}
                 />
               </div>
               <div>
-                <label className="block font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3">
+                <label className="block font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-2 md:mb-3">
                   LAST NAME *
                 </label>
                 <input
                   type="text"
                   required
-                  className="w-full px-4 py-3 bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 text-graphite-900 dark:text-ivory-100 focus:outline-none focus:border-oxide-600"
+                  className="w-full px-3 py-3 sm:px-4 sm:py-3 text-sm sm:text-base bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 text-graphite-900 dark:text-ivory-100 focus:outline-none focus:border-oxide-600"
                   value={formData.lastName}
                   onChange={(e) => setFormData({ ...formData, lastName: e.target.value })}
                 />
               </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
               <div>
-                <label className="block font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3">
+                <label className="block font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-2 md:mb-3">
                   JOB TITLE *
                 </label>
                 <input
                   type="text"
                   required
-                  className="w-full px-4 py-3 bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 text-graphite-900 dark:text-ivory-100 focus:outline-none focus:border-oxide-600"
+                  className="w-full px-3 py-3 sm:px-4 sm:py-3 text-sm sm:text-base bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 text-graphite-900 dark:text-ivory-100 focus:outline-none focus:border-oxide-600"
                   value={formData.title}
                   onChange={(e) => setFormData({ ...formData, title: e.target.value })}
                 />
               </div>
               <div>
-                <label className="block font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3">
+                <label className="block font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-2 md:mb-3">
                   ORGANIZATION NAME *
                 </label>
                 <input
                   type="text"
                   required
-                  className="w-full px-4 py-3 bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 text-graphite-900 dark:text-ivory-100 focus:outline-none focus:border-oxide-600"
+                  className="w-full px-3 py-3 sm:px-4 sm:py-3 text-sm sm:text-base bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 text-graphite-900 dark:text-ivory-100 focus:outline-none focus:border-oxide-600"
                   value={formData.organization}
                   onChange={(e) => setFormData({ ...formData, organization: e.target.value })}
                 />
               </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
               <div>
-                <label className="block font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3">
+                <label className="block font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-2 md:mb-3">
                   BUSINESS EMAIL *
                 </label>
                 <input
                   type="email"
                   required
-                  className="w-full px-4 py-3 bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 text-graphite-900 dark:text-ivory-100 focus:outline-none focus:border-oxide-600"
+                  className="w-full px-3 py-3 sm:px-4 sm:py-3 text-sm sm:text-base bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 text-graphite-900 dark:text-ivory-100 focus:outline-none focus:border-oxide-600"
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                 />
               </div>
               <div>
-                <label className="block font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3">
+                <label className="block font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-2 md:mb-3">
                   PHONE NUMBER *
                 </label>
                 <input
                   type="tel"
                   required
-                  className="w-full px-4 py-3 bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 text-graphite-900 dark:text-ivory-100 focus:outline-none focus:border-oxide-600"
+                  className="w-full px-3 py-3 sm:px-4 sm:py-3 text-sm sm:text-base bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 text-graphite-900 dark:text-ivory-100 focus:outline-none focus:border-oxide-600"
                   value={formData.phone}
                   onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                 />
@@ -186,12 +186,12 @@ export default function ContactPage() {
 
             {/* Inquiry Details */}
             <div>
-              <label className="block font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3">
+              <label className="block font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-2 md:mb-3">
                 INQUIRY TYPE *
               </label>
               <select
                 required
-                className="w-full px-4 py-3 bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 text-graphite-900 dark:text-ivory-100 focus:outline-none focus:border-oxide-600"
+                className="w-full px-3 py-3 sm:px-4 sm:py-3 text-sm sm:text-base bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 text-graphite-900 dark:text-ivory-100 focus:outline-none focus:border-oxide-600"
                 value={formData.inquiryType}
                 onChange={(e) => setFormData({ ...formData, inquiryType: e.target.value })}
               >
@@ -206,12 +206,12 @@ export default function ContactPage() {
             </div>
 
             <div>
-              <label className="block font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3">
+              <label className="block font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-2 md:mb-3">
                 PROJECT SCOPE
               </label>
               <textarea
                 rows={6}
-                className="w-full px-4 py-3 bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 text-graphite-900 dark:text-ivory-100 focus:outline-none focus:border-oxide-600"
+                className="w-full px-3 py-3 sm:px-4 sm:py-3 text-sm sm:text-base bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 text-graphite-900 dark:text-ivory-100 focus:outline-none focus:border-oxide-600"
                 placeholder="Describe technical requirements, expected scale, timeline, and specific challenges..."
                 value={formData.projectScope}
                 onChange={(e) => setFormData({ ...formData, projectScope: e.target.value })}
@@ -219,13 +219,13 @@ export default function ContactPage() {
             </div>
 
             <div>
-              <label className="block font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3">
+              <label className="block font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-2 md:mb-3">
                 DETAILED MESSAGE *
               </label>
               <textarea
                 required
                 rows={8}
-                className="w-full px-4 py-3 bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 text-graphite-900 dark:text-ivory-100 focus:outline-none focus:border-oxide-600"
+                className="w-full px-3 py-3 sm:px-4 sm:py-3 text-sm sm:text-base bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 text-graphite-900 dark:text-ivory-100 focus:outline-none focus:border-oxide-600"
                 placeholder="Provide detailed context, specific questions, and any relevant background information..."
                 value={formData.message}
                 onChange={(e) => setFormData({ ...formData, message: e.target.value })}
@@ -244,13 +244,13 @@ export default function ContactPage() {
 
       {/* Global Offices */}
       <section className="border-b border-industrial-300 dark:border-industrial-700 bg-graphite-900 dark:bg-graphite-900 text-ivory-100">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
-          <h2 className="font-serif text-3xl font-bold mb-12 text-ivory-50">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
+          <h2 className="font-serif text-2xl sm:text-3xl font-bold mb-8 md:mb-12 text-ivory-50">
             Global Office Network
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
             <div>
-              <h3 className="font-mono text-xs font-bold tracking-widest text-oxide-500 mb-4">
+              <h3 className="font-mono text-xs font-bold tracking-widest text-oxide-500 mb-3 md:mb-4">
                 HEADQUARTERS — NEW YORK
               </h3>
               <div className="space-y-2 text-sm text-ivory-300">
@@ -262,7 +262,7 @@ export default function ContactPage() {
               </div>
             </div>
             <div>
-              <h3 className="font-mono text-xs font-bold tracking-widest text-oxide-500 mb-4">
+              <h3 className="font-mono text-xs font-bold tracking-widest text-oxide-500 mb-3 md:mb-4">
                 EMEA — LONDON
               </h3>
               <div className="space-y-2 text-sm text-ivory-300">
@@ -274,7 +274,7 @@ export default function ContactPage() {
               </div>
             </div>
             <div>
-              <h3 className="font-mono text-xs font-bold tracking-widest text-oxide-500 mb-4">
+              <h3 className="font-mono text-xs font-bold tracking-widest text-oxide-500 mb-3 md:mb-4">
                 APAC — SINGAPORE
               </h3>
               <div className="space-y-2 text-sm text-ivory-300">
@@ -286,7 +286,7 @@ export default function ContactPage() {
               </div>
             </div>
             <div>
-              <h3 className="font-mono text-xs font-bold tracking-widest text-oxide-500 mb-4">
+              <h3 className="font-mono text-xs font-bold tracking-widest text-oxide-500 mb-3 md:mb-4">
                 EU — FRANKFURT
               </h3>
               <div className="space-y-2 text-sm text-ivory-300">
@@ -303,24 +303,24 @@ export default function ContactPage() {
 
       {/* Data Protection */}
       <section id="data-protection" className="border-b border-industrial-300 dark:border-industrial-700">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="content-grid">
             <div className="lg:col-span-4">
-              <h2 className="font-serif text-3xl font-bold mb-4 text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-2xl sm:text-3xl font-bold mb-3 md:mb-4 text-graphite-950 dark:text-ivory-50">
                 Data Protection Statement
               </h2>
-              <div className="font-mono text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
+              <div className="font-mono text-[10px] sm:text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
                 PRIVACY FRAMEWORK
               </div>
             </div>
-            <div className="lg:col-span-8 space-y-6 text-sm text-graphite-800 dark:text-ivory-300 leading-relaxed">
+            <div className="lg:col-span-8 space-y-4 md:space-y-6 mt-6 lg:mt-0 text-sm text-graphite-800 dark:text-ivory-300 leading-relaxed">
               <p>
                 FORGECORE Technologies processes personal information in accordance with applicable data
                 protection regulations including the EU General Data Protection Regulation (GDPR), California
                 Consumer Privacy Act (CCPA/CPRA), and equivalent frameworks in all jurisdictions where we operate.
               </p>
               <div className="technical-block">
-                <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                   DATA PROCESSING PRINCIPLES
                 </h3>
                 <ul className="space-y-2">
@@ -336,7 +336,7 @@ export default function ContactPage() {
                 </ul>
               </div>
               <div className="technical-block">
-                <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                   DATA SUBJECT RIGHTS
                 </h3>
                 <ul className="space-y-2">
@@ -348,7 +348,7 @@ export default function ContactPage() {
                   <li>→ Right to object to processing based on legitimate interests</li>
                 </ul>
               </div>
-              <p className="text-xs text-graphite-700 dark:text-ivory-400 mt-6">
+              <p className="text-xs text-graphite-700 dark:text-ivory-400 mt-4 md:mt-6">
                 Data subject requests should be submitted to: privacy@forgecore.tech. Requests will be
                 processed within 30 days (GDPR) or 45 days (CCPA) as required by applicable law.
               </p>
@@ -359,25 +359,25 @@ export default function ContactPage() {
 
       {/* Compliance */}
       <section id="compliance" className="border-b border-industrial-300 dark:border-industrial-700">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="content-grid">
             <div className="lg:col-span-4">
-              <h2 className="font-serif text-3xl font-bold mb-4 text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-2xl sm:text-3xl font-bold mb-3 md:mb-4 text-graphite-950 dark:text-ivory-50">
                 Compliance Framework
               </h2>
-              <div className="font-mono text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
+              <div className="font-mono text-[10px] sm:text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
                 CERTIFICATIONS & AUDITS
               </div>
             </div>
-            <div className="lg:col-span-8 space-y-6">
+            <div className="lg:col-span-8 space-y-4 md:space-y-6 mt-6 lg:mt-0">
               <p className="editorial-text">
                 FORGECORE maintains comprehensive compliance programs audited annually by independent third
                 parties. Compliance documentation, audit reports, and security questionnaire responses
                 available to qualified enterprise prospects under NDA.
               </p>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mt-6 md:mt-8">
                 <div className="technical-block">
-                  <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                  <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                     SECURITY CERTIFICATIONS
                   </h3>
                   <ul className="space-y-2 text-sm text-graphite-800 dark:text-ivory-300">
@@ -390,7 +390,7 @@ export default function ContactPage() {
                   </ul>
                 </div>
                 <div className="technical-block">
-                  <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                  <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                     REGULATORY COMPLIANCE
                   </h3>
                   <ul className="space-y-2 text-sm text-graphite-800 dark:text-ivory-300">
@@ -410,17 +410,17 @@ export default function ContactPage() {
 
       {/* Terms of Service */}
       <section id="terms">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="content-grid">
             <div className="lg:col-span-4">
-              <h2 className="font-serif text-3xl font-bold mb-4 text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-2xl sm:text-3xl font-bold mb-3 md:mb-4 text-graphite-950 dark:text-ivory-50">
                 Legal Notices
               </h2>
-              <div className="font-mono text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
+              <div className="font-mono text-[10px] sm:text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
                 TERMS & CONDITIONS
               </div>
             </div>
-            <div className="lg:col-span-8 space-y-6 text-sm text-graphite-800 dark:text-ivory-300 leading-relaxed">
+            <div className="lg:col-span-8 space-y-4 md:space-y-6 mt-6 lg:mt-0 text-sm text-graphite-800 dark:text-ivory-300 leading-relaxed">
               <p>
                 <strong className="text-graphite-900 dark:text-ivory-100">Service Terms:</strong> All services
                 provided under Master Services Agreement (MSA) negotiated individually with enterprise customers.
@@ -450,7 +450,7 @@ export default function ContactPage() {
                 All data permanently deleted after extraction period. Partial refunds not available for early
                 termination without cause.
               </p>
-              <p className="text-xs text-graphite-700 dark:text-ivory-400 mt-8">
+              <p className="text-xs text-graphite-700 dark:text-ivory-400 mt-6 md:mt-8">
                 Last Updated: January 2026 — These terms apply to enterprise service agreements executed after this date.
                 Existing customers operate under terms agreed at contract execution. For legal inquiries: legal@forgecore.tech
               </p>
