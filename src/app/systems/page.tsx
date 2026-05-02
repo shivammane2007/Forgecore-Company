@@ -3,15 +3,15 @@ export default function SystemsPage() {
     <div className="min-h-screen">
       {/* Page Header */}
       <section className="border-b border-industrial-300 dark:border-industrial-700 bg-graphite-900 dark:bg-graphite-900 text-ivory-100">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="max-w-4xl">
-            <div className="font-mono text-xs font-bold tracking-widest text-oxide-500 mb-8">
+            <div className="font-mono text-[10px] sm:text-xs font-bold tracking-widest text-oxide-500 mb-6 md:mb-8">
               03 — SYSTEMS & ARCHITECTURE
             </div>
-            <h1 className="font-serif text-5xl lg:text-6xl font-bold leading-tight mb-8">
+            <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6 md:mb-8 text-balance">
               Technical Architecture, Design Philosophy, and Infrastructure Patterns
             </h1>
-            <p className="text-xl text-ivory-300 leading-relaxed">
+            <p className="text-lg md:text-xl text-ivory-300 leading-relaxed">
               Detailed exposition of platform design principles, distributed systems approach, data pipeline
               architecture, security layers, compliance frameworks, and performance optimization strategies.
             </p>
@@ -21,13 +21,13 @@ export default function SystemsPage() {
 
       {/* Platform Design Philosophy */}
       <section className="border-b border-industrial-300 dark:border-industrial-700">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="content-grid">
             <div className="lg:col-span-4">
-              <h2 className="font-serif text-3xl font-bold mb-4 text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-2xl md:text-3xl font-bold mb-2 md:mb-4 text-graphite-950 dark:text-ivory-50">
                 Platform Design Philosophy
               </h2>
-              <div className="font-mono text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
+              <div className="font-mono text-[10px] sm:text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
                 ARCHITECTURAL PRINCIPLES
               </div>
             </div>
@@ -44,12 +44,12 @@ export default function SystemsPage() {
                 technology heterogeneity, and granular scaling decisions.
               </p>
               <div className="technical-block mt-8">
-                <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                   DESIGN CONSTRAINTS
                 </h3>
                 <div className="space-y-4">
                   <div>
-                    <h4 className="font-sans text-sm font-semibold mb-2 text-graphite-900 dark:text-ivory-100">
+                    <h4 className="font-sans text-sm font-semibold mb-1 md:mb-2 text-graphite-900 dark:text-ivory-100">
                       Stateless by Default
                     </h4>
                     <p className="text-sm text-graphite-800 dark:text-ivory-300 leading-relaxed">
@@ -59,7 +59,7 @@ export default function SystemsPage() {
                     </p>
                   </div>
                   <div>
-                    <h4 className="font-sans text-sm font-semibold mb-2 text-graphite-900 dark:text-ivory-100">
+                    <h4 className="font-sans text-sm font-semibold mb-1 md:mb-2 text-graphite-900 dark:text-ivory-100">
                       Idempotent Operations
                     </h4>
                     <p className="text-sm text-graphite-800 dark:text-ivory-300 leading-relaxed">
@@ -69,7 +69,7 @@ export default function SystemsPage() {
                     </p>
                   </div>
                   <div>
-                    <h4 className="font-sans text-sm font-semibold mb-2 text-graphite-900 dark:text-ivory-100">
+                    <h4 className="font-sans text-sm font-semibold mb-1 md:mb-2 text-graphite-900 dark:text-ivory-100">
                       Circuit Breaker Pattern
                     </h4>
                     <p className="text-sm text-graphite-800 dark:text-ivory-300 leading-relaxed">
@@ -79,7 +79,7 @@ export default function SystemsPage() {
                     </p>
                   </div>
                   <div>
-                    <h4 className="font-sans text-sm font-semibold mb-2 text-graphite-900 dark:text-ivory-100">
+                    <h4 className="font-sans text-sm font-semibold mb-1 md:mb-2 text-graphite-900 dark:text-ivory-100">
                       Observable by Design
                     </h4>
                     <p className="text-sm text-graphite-800 dark:text-ivory-300 leading-relaxed">
@@ -97,13 +97,13 @@ export default function SystemsPage() {
 
       {/* Distributed Systems Approach */}
       <section className="border-b border-industrial-300 dark:border-industrial-700">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="content-grid">
             <div className="lg:col-span-4">
-              <h2 className="font-serif text-3xl font-bold mb-4 text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-2xl md:text-3xl font-bold mb-2 md:mb-4 text-graphite-950 dark:text-ivory-50">
                 Distributed Systems Approach
               </h2>
-              <div className="font-mono text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
+              <div className="font-mono text-[10px] sm:text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
                 CONSENSUS & COORDINATION
               </div>
             </div>
@@ -114,9 +114,9 @@ export default function SystemsPage() {
                 (Raft, Paxos), distributed coordination services (etcd, ZooKeeper), and careful application
                 of CAP theorem tradeoffs.
               </p>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mt-6 md:mt-8">
                 <div className="technical-block">
-                  <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                  <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                     CONSISTENCY MODELS
                   </h3>
                   <div className="space-y-3 text-sm text-graphite-800 dark:text-ivory-300">
@@ -150,7 +150,7 @@ export default function SystemsPage() {
                   </div>
                 </div>
                 <div className="technical-block">
-                  <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                  <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                     PARTITION TOLERANCE
                   </h3>
                   <div className="space-y-3 text-sm text-graphite-800 dark:text-ivory-300">
@@ -191,13 +191,13 @@ export default function SystemsPage() {
 
       {/* Data Pipelines */}
       <section className="border-b border-industrial-300 dark:border-industrial-700">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="content-grid">
             <div className="lg:col-span-4">
-              <h2 className="font-serif text-3xl font-bold mb-4 text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-2xl md:text-3xl font-bold mb-2 md:mb-4 text-graphite-950 dark:text-ivory-50">
                 Data Pipelines
               </h2>
-              <div className="font-mono text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
+              <div className="font-mono text-[10px] sm:text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
                 INGESTION & PROCESSING
               </div>
             </div>
@@ -208,7 +208,7 @@ export default function SystemsPage() {
                 and stream processing (Apache Flink, Kafka Streams) depending on latency requirements.
               </p>
               <div className="technical-block mt-8">
-                <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                   PIPELINE ARCHITECTURE
                 </h3>
                 <div className="space-y-4 text-sm text-graphite-800 dark:text-ivory-300">
@@ -234,7 +234,7 @@ export default function SystemsPage() {
                   </p>
                 </div>
               </div>
-              <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="mt-6 md:mt-8 grid grid-cols-1 sm:grid-cols-3 gap-6">
                 <div>
                   <div className="font-mono text-2xl font-bold text-oxide-600 dark:text-oxide-500 mb-2">
                     50TB+
@@ -267,13 +267,13 @@ export default function SystemsPage() {
 
       {/* Security Layers */}
       <section className="border-b border-industrial-300 dark:border-industrial-700">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="content-grid">
             <div className="lg:col-span-4">
-              <h2 className="font-serif text-3xl font-bold mb-4 text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-2xl md:text-3xl font-bold mb-2 md:mb-4 text-graphite-950 dark:text-ivory-50">
                 Security Layers
               </h2>
-              <div className="font-mono text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
+              <div className="font-mono text-[10px] sm:text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
                 DEFENSE IN DEPTH
               </div>
             </div>
@@ -284,8 +284,8 @@ export default function SystemsPage() {
                 have penetrated perimeter defenses and design accordingly.
               </p>
               <div className="space-y-6 mt-8">
-                <div className="border-l-4 border-oxide-600 dark:border-oxide-500 pl-6">
-                  <h3 className="font-sans text-lg font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                <div className="border-l-4 border-oxide-600 dark:border-oxide-500 pl-4 sm:pl-6">
+                  <h3 className="font-sans text-lg font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                     Layer 1: Network Security
                   </h3>
                   <p className="text-sm text-graphite-800 dark:text-ivory-300 leading-relaxed mb-3">
@@ -300,8 +300,8 @@ export default function SystemsPage() {
                   </ul>
                 </div>
 
-                <div className="border-l-4 border-oxide-600 dark:border-oxide-500 pl-6">
-                  <h3 className="font-sans text-lg font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                <div className="border-l-4 border-oxide-600 dark:border-oxide-500 pl-4 sm:pl-6">
+                  <h3 className="font-sans text-lg font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                     Layer 2: Identity & Access Management
                   </h3>
                   <p className="text-sm text-graphite-800 dark:text-ivory-300 leading-relaxed mb-3">
@@ -316,8 +316,8 @@ export default function SystemsPage() {
                   </ul>
                 </div>
 
-                <div className="border-l-4 border-oxide-600 dark:border-oxide-500 pl-6">
-                  <h3 className="font-sans text-lg font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                <div className="border-l-4 border-oxide-600 dark:border-oxide-500 pl-4 sm:pl-6">
+                  <h3 className="font-sans text-lg font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                     Layer 3: Data Protection
                   </h3>
                   <p className="text-sm text-graphite-800 dark:text-ivory-300 leading-relaxed mb-3">
@@ -331,8 +331,8 @@ export default function SystemsPage() {
                   </ul>
                 </div>
 
-                <div className="border-l-4 border-oxide-600 dark:border-oxide-500 pl-6">
-                  <h3 className="font-sans text-lg font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                <div className="border-l-4 border-oxide-600 dark:border-oxide-500 pl-4 sm:pl-6">
+                  <h3 className="font-sans text-lg font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                     Layer 4: Application Security
                   </h3>
                   <p className="text-sm text-graphite-800 dark:text-ivory-300 leading-relaxed mb-3">
@@ -354,13 +354,13 @@ export default function SystemsPage() {
 
       {/* Compliance Readiness */}
       <section className="border-b border-industrial-300 dark:border-industrial-700">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="content-grid">
             <div className="lg:col-span-4">
-              <h2 className="font-serif text-3xl font-bold mb-4 text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-2xl md:text-3xl font-bold mb-2 md:mb-4 text-graphite-950 dark:text-ivory-50">
                 Compliance Readiness
               </h2>
-              <div className="font-mono text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
+              <div className="font-mono text-[10px] sm:text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
                 REGULATORY FRAMEWORKS
               </div>
             </div>
@@ -370,9 +370,9 @@ export default function SystemsPage() {
                 controls as foundational requirements. Data residency, audit trails, access controls, and
                 retention policies are embedded in infrastructure design.
               </p>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8 mt-6 md:mt-8">
                 <div className="technical-block">
-                  <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                  <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                     SECURITY CERTIFICATIONS
                   </h3>
                   <ul className="space-y-2 text-sm text-graphite-800 dark:text-ivory-300">
@@ -385,7 +385,7 @@ export default function SystemsPage() {
                   </ul>
                 </div>
                 <div className="technical-block">
-                  <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                  <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                     REGULATORY COMPLIANCE
                   </h3>
                   <ul className="space-y-2 text-sm text-graphite-800 dark:text-ivory-300">
@@ -405,13 +405,13 @@ export default function SystemsPage() {
 
       {/* Performance Optimization */}
       <section>
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="content-grid">
             <div className="lg:col-span-4">
-              <h2 className="font-serif text-3xl font-bold mb-4 text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-2xl md:text-3xl font-bold mb-2 md:mb-4 text-graphite-950 dark:text-ivory-50">
                 Performance Optimization
               </h2>
-              <div className="font-mono text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
+              <div className="font-mono text-[10px] sm:text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
                 LATENCY & THROUGHPUT
               </div>
             </div>
@@ -422,7 +422,7 @@ export default function SystemsPage() {
                 continuously and optimize based on production telemetry.
               </p>
               <div className="technical-block mt-8">
-                <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                   OPTIMIZATION STRATEGIES
                 </h3>
                 <div className="space-y-4 text-sm text-graphite-800 dark:text-ivory-300">
@@ -449,7 +449,7 @@ export default function SystemsPage() {
                   </p>
                 </div>
               </div>
-              <div className="mt-8 grid grid-cols-1 md:grid-cols-4 gap-6">
+              <div className="mt-6 md:mt-8 grid grid-cols-2 md:grid-cols-4 gap-6">
                 <div>
                   <div className="font-mono text-2xl font-bold text-oxide-600 dark:text-oxide-500 mb-2">
                     &lt;15ms

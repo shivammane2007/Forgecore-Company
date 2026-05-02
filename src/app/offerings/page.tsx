@@ -3,15 +3,15 @@ export default function OfferingsPage() {
     <div className="min-h-screen">
       {/* Page Header */}
       <section className="border-b border-industrial-300 dark:border-industrial-700 bg-graphite-900 dark:bg-graphite-900 text-ivory-100">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="max-w-4xl">
-            <div className="font-mono text-xs font-bold tracking-widest text-oxide-500 mb-8">
+            <div className="font-mono text-[10px] sm:text-xs font-bold tracking-widest text-oxide-500 mb-6 md:mb-8">
               02 — ENTERPRISE OFFERINGS
             </div>
-            <h1 className="font-serif text-5xl lg:text-6xl font-bold leading-tight mb-8">
+            <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6 md:mb-8 text-balance">
               Infrastructure Solutions for Mission-Critical Operations
             </h1>
-            <p className="text-xl text-ivory-300 leading-relaxed">
+            <p className="text-lg md:text-xl text-ivory-300 leading-relaxed">
               Purpose-built systems architecture, technical scope, deployment models, and business impact
               for organizations requiring enterprise-grade infrastructure.
             </p>
@@ -21,19 +21,19 @@ export default function OfferingsPage() {
 
       {/* Distributed Infrastructure Platform */}
       <section className="border-b border-industrial-300 dark:border-industrial-700">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
-          <div className="flex flex-col lg:flex-row gap-16">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
             <div className="lg:w-1/3">
-              <div className="font-mono text-xs font-bold tracking-widest text-oxide-600 dark:text-oxide-500 mb-4">
+              <div className="font-mono text-[10px] sm:text-xs font-bold tracking-widest text-oxide-600 dark:text-oxide-500 mb-3 md:mb-4">
                 OFFERING 01
               </div>
-              <h2 className="font-serif text-4xl font-bold text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-3xl md:text-4xl font-bold text-graphite-950 dark:text-ivory-50">
                 Distributed Infrastructure Platform
               </h2>
             </div>
-            <div className="lg:w-2/3 space-y-6">
+            <div className="lg:w-2/3 space-y-6 md:space-y-8">
               <div>
-                <h3 className="font-sans text-lg font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                   Purpose
                 </h3>
                 <p className="editorial-text">
@@ -43,7 +43,7 @@ export default function OfferingsPage() {
                 </p>
               </div>
               <div>
-                <h3 className="font-sans text-lg font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                   Technical Scope
                 </h3>
                 <div className="technical-block">
@@ -60,7 +60,7 @@ export default function OfferingsPage() {
                 </div>
               </div>
               <div>
-                <h3 className="font-sans text-lg font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                   Deployment Model
                 </h3>
                 <p className="editorial-text">
@@ -70,7 +70,7 @@ export default function OfferingsPage() {
                 </p>
               </div>
               <div>
-                <h3 className="font-sans text-lg font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                   Business Impact
                 </h3>
                 <p className="editorial-text">
@@ -86,19 +86,19 @@ export default function OfferingsPage() {
 
       {/* Real-Time Data Platform */}
       <section className="border-b border-industrial-300 dark:border-industrial-700">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
-          <div className="flex flex-col lg:flex-row gap-16">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
             <div className="lg:w-1/3">
-              <div className="font-mono text-xs font-bold tracking-widest text-oxide-600 dark:text-oxide-500 mb-4">
+              <div className="font-mono text-[10px] sm:text-xs font-bold tracking-widest text-oxide-600 dark:text-oxide-500 mb-3 md:mb-4">
                 OFFERING 02
               </div>
-              <h2 className="font-serif text-4xl font-bold text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-3xl md:text-4xl font-bold text-graphite-950 dark:text-ivory-50">
                 Real-Time Data Platform
               </h2>
             </div>
-            <div className="lg:w-2/3 space-y-6">
+            <div className="lg:w-2/3 space-y-6 md:space-y-8">
               <div>
-                <h3 className="font-sans text-lg font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                   Purpose
                 </h3>
                 <p className="editorial-text">
@@ -108,7 +108,7 @@ export default function OfferingsPage() {
                 </p>
               </div>
               <div>
-                <h3 className="font-sans text-lg font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                   Technical Scope
                 </h3>
                 <div className="technical-block">
@@ -125,7 +125,7 @@ export default function OfferingsPage() {
                 </div>
               </div>
               <div>
-                <h3 className="font-sans text-lg font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                   Deployment Model
                 </h3>
                 <p className="editorial-text">
@@ -135,7 +135,7 @@ export default function OfferingsPage() {
                 </p>
               </div>
               <div>
-                <h3 className="font-sans text-lg font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                   Business Impact
                 </h3>
                 <p className="editorial-text">
@@ -151,19 +151,19 @@ export default function OfferingsPage() {
 
       {/* AI Systems Infrastructure */}
       <section className="border-b border-industrial-300 dark:border-industrial-700">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
-          <div className="flex flex-col lg:flex-row gap-16">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
             <div className="lg:w-1/3">
-              <div className="font-mono text-xs font-bold tracking-widest text-oxide-600 dark:text-oxide-500 mb-4">
+              <div className="font-mono text-[10px] sm:text-xs font-bold tracking-widest text-oxide-600 dark:text-oxide-500 mb-3 md:mb-4">
                 OFFERING 03
               </div>
-              <h2 className="font-serif text-4xl font-bold text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-3xl md:text-4xl font-bold text-graphite-950 dark:text-ivory-50">
                 AI Systems Infrastructure
               </h2>
             </div>
-            <div className="lg:w-2/3 space-y-6">
+            <div className="lg:w-2/3 space-y-6 md:space-y-8">
               <div>
-                <h3 className="font-sans text-lg font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                   Purpose
                 </h3>
                 <p className="editorial-text">
@@ -173,7 +173,7 @@ export default function OfferingsPage() {
                 </p>
               </div>
               <div>
-                <h3 className="font-sans text-lg font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                   Technical Scope
                 </h3>
                 <div className="technical-block">
@@ -190,7 +190,7 @@ export default function OfferingsPage() {
                 </div>
               </div>
               <div>
-                <h3 className="font-sans text-lg font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                   Deployment Model
                 </h3>
                 <p className="editorial-text">
@@ -200,7 +200,7 @@ export default function OfferingsPage() {
                 </p>
               </div>
               <div>
-                <h3 className="font-sans text-lg font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                   Business Impact
                 </h3>
                 <p className="editorial-text">
@@ -216,19 +216,19 @@ export default function OfferingsPage() {
 
       {/* Zero-Trust Security Architecture */}
       <section className="border-b border-industrial-300 dark:border-industrial-700">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
-          <div className="flex flex-col lg:flex-row gap-16">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
             <div className="lg:w-1/3">
-              <div className="font-mono text-xs font-bold tracking-widest text-oxide-600 dark:text-oxide-500 mb-4">
+              <div className="font-mono text-[10px] sm:text-xs font-bold tracking-widest text-oxide-600 dark:text-oxide-500 mb-3 md:mb-4">
                 OFFERING 04
               </div>
-              <h2 className="font-serif text-4xl font-bold text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-3xl md:text-4xl font-bold text-graphite-950 dark:text-ivory-50">
                 Zero-Trust Security Architecture
               </h2>
             </div>
-            <div className="lg:w-2/3 space-y-6">
+            <div className="lg:w-2/3 space-y-6 md:space-y-8">
               <div>
-                <h3 className="font-sans text-lg font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                   Purpose
                 </h3>
                 <p className="editorial-text">
@@ -238,7 +238,7 @@ export default function OfferingsPage() {
                 </p>
               </div>
               <div>
-                <h3 className="font-sans text-lg font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                   Technical Scope
                 </h3>
                 <div className="technical-block">
@@ -255,7 +255,7 @@ export default function OfferingsPage() {
                 </div>
               </div>
               <div>
-                <h3 className="font-sans text-lg font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                   Deployment Model
                 </h3>
                 <p className="editorial-text">
@@ -265,7 +265,7 @@ export default function OfferingsPage() {
                 </p>
               </div>
               <div>
-                <h3 className="font-sans text-lg font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                   Business Impact
                 </h3>
                 <p className="editorial-text">
@@ -281,19 +281,19 @@ export default function OfferingsPage() {
 
       {/* Global Data Network */}
       <section className="border-b border-industrial-300 dark:border-industrial-700">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
-          <div className="flex flex-col lg:flex-row gap-16">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
             <div className="lg:w-1/3">
-              <div className="font-mono text-xs font-bold tracking-widest text-oxide-600 dark:text-oxide-500 mb-4">
+              <div className="font-mono text-[10px] sm:text-xs font-bold tracking-widest text-oxide-600 dark:text-oxide-500 mb-3 md:mb-4">
                 OFFERING 05
               </div>
-              <h2 className="font-serif text-4xl font-bold text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-3xl md:text-4xl font-bold text-graphite-950 dark:text-ivory-50">
                 Global Data Network
               </h2>
             </div>
-            <div className="lg:w-2/3 space-y-6">
+            <div className="lg:w-2/3 space-y-6 md:space-y-8">
               <div>
-                <h3 className="font-sans text-lg font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                   Purpose
                 </h3>
                 <p className="editorial-text">
@@ -303,7 +303,7 @@ export default function OfferingsPage() {
                 </p>
               </div>
               <div>
-                <h3 className="font-sans text-lg font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                   Technical Scope
                 </h3>
                 <div className="technical-block">
@@ -320,7 +320,7 @@ export default function OfferingsPage() {
                 </div>
               </div>
               <div>
-                <h3 className="font-sans text-lg font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                   Deployment Model
                 </h3>
                 <p className="editorial-text">
@@ -330,7 +330,7 @@ export default function OfferingsPage() {
                 </p>
               </div>
               <div>
-                <h3 className="font-sans text-lg font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                   Business Impact
                 </h3>
                 <p className="editorial-text">
@@ -346,19 +346,19 @@ export default function OfferingsPage() {
 
       {/* Managed Database Services */}
       <section>
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
-          <div className="flex flex-col lg:flex-row gap-16">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
             <div className="lg:w-1/3">
-              <div className="font-mono text-xs font-bold tracking-widest text-oxide-600 dark:text-oxide-500 mb-4">
+              <div className="font-mono text-[10px] sm:text-xs font-bold tracking-widest text-oxide-600 dark:text-oxide-500 mb-3 md:mb-4">
                 OFFERING 06
               </div>
-              <h2 className="font-serif text-4xl font-bold text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-3xl md:text-4xl font-bold text-graphite-950 dark:text-ivory-50">
                 Managed Database Services
               </h2>
             </div>
-            <div className="lg:w-2/3 space-y-6">
+            <div className="lg:w-2/3 space-y-6 md:space-y-8">
               <div>
-                <h3 className="font-sans text-lg font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                   Purpose
                 </h3>
                 <p className="editorial-text">
@@ -368,7 +368,7 @@ export default function OfferingsPage() {
                 </p>
               </div>
               <div>
-                <h3 className="font-sans text-lg font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                   Technical Scope
                 </h3>
                 <div className="technical-block">
@@ -385,7 +385,7 @@ export default function OfferingsPage() {
                 </div>
               </div>
               <div>
-                <h3 className="font-sans text-lg font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                   Deployment Model
                 </h3>
                 <p className="editorial-text">
@@ -395,7 +395,7 @@ export default function OfferingsPage() {
                 </p>
               </div>
               <div>
-                <h3 className="font-sans text-lg font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                <h3 className="font-sans text-lg font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                   Business Impact
                 </h3>
                 <p className="editorial-text">

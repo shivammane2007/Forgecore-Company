@@ -1,10 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Lora:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Lora:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
-  
   * {
     @apply border-industrial-200 dark:border-industrial-800;
   }
@@ -39,21 +39,23 @@
   
   .industrial-btn {
     @apply px-8 py-4 bg-graphite-900 dark:bg-ivory-100 text-ivory-100 dark:text-graphite-900;
-    @apply font-medium tracking-wide uppercase text-sm;
+    @apply font-medium tracking-wide uppercase text-sm text-center justify-center flex items-center min-h-[44px] w-full sm:w-auto;
     @apply border border-graphite-900 dark:border-ivory-100;
     @apply transition-all duration-200;
     @apply hover:bg-oxide-600 hover:border-oxide-600 hover:text-ivory-50;
     @apply dark:hover:bg-oxide-600 dark:hover:border-oxide-600 dark:hover:text-ivory-50;
+    @apply active:scale-[0.98];
   }
   
   .industrial-btn-outline {
     @apply px-8 py-4 bg-transparent;
-    @apply font-medium tracking-wide uppercase text-sm;
+    @apply font-medium tracking-wide uppercase text-sm text-center justify-center flex items-center min-h-[44px] w-full sm:w-auto;
     @apply border border-graphite-900 dark:border-ivory-100;
     @apply text-graphite-900 dark:text-ivory-100;
     @apply transition-all duration-200;
     @apply hover:bg-graphite-900 hover:text-ivory-100;
     @apply dark:hover:bg-ivory-100 dark:hover:text-graphite-900;
+    @apply active:scale-[0.98];
   }
 }
 

@@ -3,15 +3,15 @@ export default function OperationsPage() {
     <div className="min-h-screen">
       {/* Page Header */}
       <section className="border-b border-industrial-300 dark:border-industrial-700 bg-graphite-900 dark:bg-graphite-900 text-ivory-100">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="max-w-4xl">
-            <div className="font-mono text-xs font-bold tracking-widest text-oxide-500 mb-8">
+            <div className="font-mono text-[10px] sm:text-xs font-bold tracking-widest text-oxide-500 mb-6 md:mb-8">
               06 — PEOPLE & OPERATIONS
             </div>
-            <h1 className="font-serif text-5xl lg:text-6xl font-bold leading-tight mb-8">
+            <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6 md:mb-8 text-balance">
               Organizational Structure, Talent Philosophy, and Performance Culture
             </h1>
-            <p className="text-xl text-ivory-300 leading-relaxed">
+            <p className="text-lg md:text-xl text-ivory-300 leading-relaxed">
               Leadership framework, hiring standards, career progression, performance expectations,
               and continuous learning systems that define how FORGECORE operates internally.
             </p>
@@ -21,13 +21,13 @@ export default function OperationsPage() {
 
       {/* Organizational Structure */}
       <section className="border-b border-industrial-300 dark:border-industrial-700">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="content-grid">
             <div className="lg:col-span-4">
-              <h2 className="font-serif text-3xl font-bold mb-4 text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-2xl md:text-3xl font-bold mb-2 md:mb-4 text-graphite-950 dark:text-ivory-50">
                 Organizational Structure
               </h2>
-              <div className="font-mono text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
+              <div className="font-mono text-[10px] sm:text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
                 FUNCTIONAL DIVISIONS
               </div>
             </div>
@@ -38,14 +38,14 @@ export default function OperationsPage() {
                 Security, AI) while serving on product teams. This structure maintains deep technical
                 expertise while enabling cross-functional collaboration.
               </p>
-              <div className="space-y-8 mt-8">
+              <div className="space-y-8 mt-6 md:mt-8">
                 <div>
                   <h3 className="font-sans text-xl font-semibold mb-4 text-graphite-900 dark:text-ivory-100">
                     Engineering Organization
                   </h3>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6">
                     <div className="technical-block">
-                      <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3">
+                      <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-2 md:mb-3">
                         INFRASTRUCTURE ENGINEERING
                       </h4>
                       <p className="text-sm text-graphite-800 dark:text-ivory-300 mb-2">
@@ -59,7 +59,7 @@ export default function OperationsPage() {
                       </ul>
                     </div>
                     <div className="technical-block">
-                      <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3">
+                      <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-2 md:mb-3">
                         DATA ENGINEERING
                       </h4>
                       <p className="text-sm text-graphite-800 dark:text-ivory-300 mb-2">
@@ -73,7 +73,7 @@ export default function OperationsPage() {
                       </ul>
                     </div>
                     <div className="technical-block">
-                      <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3">
+                      <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-2 md:mb-3">
                         SECURITY ENGINEERING
                       </h4>
                       <p className="text-sm text-graphite-800 dark:text-ivory-300 mb-2">
@@ -87,7 +87,7 @@ export default function OperationsPage() {
                       </ul>
                     </div>
                     <div className="technical-block">
-                      <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3">
+                      <h4 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-2 md:mb-3">
                         AI SYSTEMS ENGINEERING
                       </h4>
                       <p className="text-sm text-graphite-800 dark:text-ivory-300 mb-2">
@@ -107,7 +107,7 @@ export default function OperationsPage() {
                   <h3 className="font-sans text-xl font-semibold mb-4 text-graphite-900 dark:text-ivory-100">
                     Supporting Functions
                   </h3>
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
                     <div>
                       <h4 className="font-sans text-sm font-semibold mb-2 text-graphite-900 dark:text-ivory-100">
                         Product Management
@@ -145,13 +145,13 @@ export default function OperationsPage() {
 
       {/* Leadership Philosophy */}
       <section className="border-b border-industrial-300 dark:border-industrial-700">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="content-grid">
             <div className="lg:col-span-4">
-              <h2 className="font-serif text-3xl font-bold mb-4 text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-2xl md:text-3xl font-bold mb-2 md:mb-4 text-graphite-950 dark:text-ivory-50">
                 Leadership Mindset
               </h2>
-              <div className="font-mono text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
+              <div className="font-mono text-[10px] sm:text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
                 MANAGEMENT APPROACH
               </div>
             </div>
@@ -161,9 +161,9 @@ export default function OperationsPage() {
                 Engineering managers maintain hands-on technical contribution (20-30% time) while developing
                 teams. Leadership is measured by team output, not headcount growth.
               </p>
-              <div className="space-y-6 mt-8">
-                <div className="border-l-4 border-oxide-600 dark:border-oxide-500 pl-6">
-                  <h3 className="font-sans text-lg font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+              <div className="space-y-6 mt-6 md:mt-8">
+                <div className="border-l-4 border-oxide-600 dark:border-oxide-500 pl-4 sm:pl-6">
+                  <h3 className="font-sans text-lg font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                     Servant Leadership
                   </h3>
                   <p className="text-sm text-graphite-800 dark:text-ivory-300 leading-relaxed mb-3">
@@ -177,8 +177,8 @@ export default function OperationsPage() {
                   </p>
                 </div>
 
-                <div className="border-l-4 border-oxide-600 dark:border-oxide-500 pl-6">
-                  <h3 className="font-sans text-lg font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                <div className="border-l-4 border-oxide-600 dark:border-oxide-500 pl-4 sm:pl-6">
+                  <h3 className="font-sans text-lg font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                     Data-Driven Decisions
                   </h3>
                   <p className="text-sm text-graphite-800 dark:text-ivory-300 leading-relaxed mb-3">
@@ -191,8 +191,8 @@ export default function OperationsPage() {
                   </p>
                 </div>
 
-                <div className="border-l-4 border-oxide-600 dark:border-oxide-500 pl-6">
-                  <h3 className="font-sans text-lg font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                <div className="border-l-4 border-oxide-600 dark:border-oxide-500 pl-4 sm:pl-6">
+                  <h3 className="font-sans text-lg font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                     Disagree and Commit
                   </h3>
                   <p className="text-sm text-graphite-800 dark:text-ivory-300 leading-relaxed mb-3">
@@ -212,13 +212,13 @@ export default function OperationsPage() {
 
       {/* Hiring Standards */}
       <section className="border-b border-industrial-300 dark:border-industrial-700">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="content-grid">
             <div className="lg:col-span-4">
-              <h2 className="font-serif text-3xl font-bold mb-4 text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-2xl md:text-3xl font-bold mb-2 md:mb-4 text-graphite-950 dark:text-ivory-50">
                 Hiring Standards
               </h2>
-              <div className="font-mono text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
+              <div className="font-mono text-[10px] sm:text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
                 TALENT ACQUISITION
               </div>
             </div>
@@ -229,7 +229,7 @@ export default function OperationsPage() {
                 skills over memorized algorithms. We hire for potential, not just current capabilities.
               </p>
               <div className="technical-block mt-8">
-                <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                   INTERVIEW PROCESS
                 </h3>
                 <div className="space-y-4 text-sm text-graphite-800 dark:text-ivory-300">
@@ -252,11 +252,11 @@ export default function OperationsPage() {
                   <p>
                     <strong className="text-graphite-900 dark:text-ivory-100">Behavioral Interview (45 min):</strong> Past
                     experiences revealing collaboration style, conflict resolution, and growth mindset.
-                    Structured questions with detailed follow-ups.
+                    structured questions with detailed follow-ups.
                   </p>
                 </div>
               </div>
-              <div className="mt-8 grid grid-cols-1 md:grid-cols-4 gap-6">
+              <div className="mt-6 md:mt-8 grid grid-cols-2 md:grid-cols-4 gap-6">
                 <div>
                   <div className="font-mono text-2xl font-bold text-oxide-600 dark:text-oxide-500 mb-2">
                     2.3%
@@ -297,13 +297,13 @@ export default function OperationsPage() {
 
       {/* Career Progression */}
       <section className="border-b border-industrial-300 dark:border-industrial-700">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="content-grid">
             <div className="lg:col-span-4">
-              <h2 className="font-serif text-3xl font-bold mb-4 text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-2xl md:text-3xl font-bold mb-2 md:mb-4 text-graphite-950 dark:text-ivory-50">
                 Career Tracks
               </h2>
-              <div className="font-mono text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
+              <div className="font-mono text-[10px] sm:text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
                 ADVANCEMENT PATHS
               </div>
             </div>
@@ -313,9 +313,9 @@ export default function OperationsPage() {
                 Both paths reach executive compensation and organizational influence. Switching between tracks
                 is common and encouraged based on interest and organizational need.
               </p>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mt-6 md:mt-8">
                 <div className="technical-block">
-                  <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                  <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                     INDIVIDUAL CONTRIBUTOR
                   </h3>
                   <div className="space-y-3 text-sm text-graphite-800 dark:text-ivory-300">
@@ -367,7 +367,7 @@ export default function OperationsPage() {
                   </div>
                 </div>
                 <div className="technical-block">
-                  <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                  <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                     ENGINEERING MANAGEMENT
                   </h3>
                   <div className="space-y-3 text-sm text-graphite-800 dark:text-ivory-300">
@@ -426,13 +426,13 @@ export default function OperationsPage() {
 
       {/* Performance Culture */}
       <section className="border-b border-industrial-300 dark:border-industrial-700">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="content-grid">
             <div className="lg:col-span-4">
-              <h2 className="font-serif text-3xl font-bold mb-4 text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-2xl md:text-3xl font-bold mb-2 md:mb-4 text-graphite-950 dark:text-ivory-50">
                 Performance Culture
               </h2>
-              <div className="font-mono text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
+              <div className="font-mono text-[10px] sm:text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
                 EXPECTATIONS
               </div>
             </div>
@@ -444,7 +444,7 @@ export default function OperationsPage() {
                 Underperformance triggers support plans with clear improvement criteria.
               </p>
               <div className="technical-block mt-8">
-                <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                   EVALUATION CRITERIA
                 </h3>
                 <div className="space-y-4 text-sm text-graphite-800 dark:text-ivory-300">
@@ -477,13 +477,13 @@ export default function OperationsPage() {
 
       {/* Learning & Development */}
       <section>
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="content-grid">
             <div className="lg:col-span-4">
-              <h2 className="font-serif text-3xl font-bold mb-4 text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-2xl md:text-3xl font-bold mb-2 md:mb-4 text-graphite-950 dark:text-ivory-50">
                 Learning & Growth
               </h2>
-              <div className="font-mono text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
+              <div className="font-mono text-[10px] sm:text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
                 DEVELOPMENT PROGRAMS
               </div>
             </div>
@@ -493,9 +493,9 @@ export default function OperationsPage() {
                 time is protected—20% of work week dedicated to skill development, research, and
                 experimentation. Knowledge sharing is cultural expectation, not optional activity.
               </p>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mt-6 md:mt-8">
                 <div className="technical-block">
-                  <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                  <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                     STRUCTURED LEARNING
                   </h3>
                   <ul className="space-y-2 text-sm text-graphite-800 dark:text-ivory-300">
@@ -507,7 +507,7 @@ export default function OperationsPage() {
                   </ul>
                 </div>
                 <div className="technical-block">
-                  <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                  <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                     EXPERIENTIAL LEARNING
                   </h3>
                   <ul className="space-y-2 text-sm text-graphite-800 dark:text-ivory-300">
@@ -519,8 +519,8 @@ export default function OperationsPage() {
                   </ul>
                 </div>
               </div>
-              <div className="mt-8 bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-8">
-                <h3 className="font-sans text-lg font-semibold mb-4 text-graphite-900 dark:text-ivory-100">
+              <div className="mt-6 md:mt-8 bg-ivory-100 dark:bg-graphite-900 border border-industrial-300 dark:border-industrial-700 p-6 sm:p-8">
+                <h3 className="font-sans text-lg font-semibold mb-3 md:mb-4 text-graphite-900 dark:text-ivory-100">
                   Compensation Philosophy
                 </h3>
                 <p className="text-sm text-graphite-800 dark:text-ivory-300 leading-relaxed mb-4">
@@ -528,7 +528,7 @@ export default function OperationsPage() {
                   Total compensation packages include base salary, annual performance bonus (15-30% of base),
                   equity grants vesting over four years, and comprehensive benefits.
                 </p>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-6">
                   <div>
                     <div className="font-mono text-2xl font-bold text-oxide-600 dark:text-oxide-500 mb-2">
                       $215K

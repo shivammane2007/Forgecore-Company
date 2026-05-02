@@ -3,15 +3,15 @@ export default function OverviewPage() {
     <div className="min-h-screen">
       {/* Page Header */}
       <section className="border-b border-industrial-300 dark:border-industrial-700 bg-graphite-900 dark:bg-graphite-900 text-ivory-100">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="max-w-4xl">
-            <div className="font-mono text-xs font-bold tracking-widest text-oxide-500 mb-8">
+            <div className="font-mono text-xs font-bold tracking-widest text-oxide-500 mb-6 md:mb-8">
               01 — CORPORATE OVERVIEW
             </div>
-            <h1 className="font-serif text-5xl lg:text-6xl font-bold leading-tight mb-8">
+            <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6 md:mb-8 text-balance">
               Organizational Structure, Operating Principles, and Global Deployment Model
             </h1>
-            <p className="text-xl text-ivory-300 leading-relaxed">
+            <p className="text-lg md:text-xl text-ivory-300 leading-relaxed">
               Internal documentation made public. This section outlines what FORGECORE Technologies builds,
               why it exists, how it operates, who it serves, and where it maintains infrastructure presence.
             </p>
@@ -21,13 +21,13 @@ export default function OverviewPage() {
 
       {/* What We Build */}
       <section className="border-b border-industrial-300 dark:border-industrial-700">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="content-grid">
             <div className="lg:col-span-4">
-              <h2 className="font-serif text-3xl font-bold mb-4 text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-2xl md:text-3xl font-bold mb-2 md:mb-4 text-graphite-950 dark:text-ivory-50">
                 What We Build
               </h2>
-              <div className="font-mono text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
+              <div className="font-mono text-[10px] sm:text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
                 TECHNICAL SCOPE
               </div>
             </div>
@@ -71,13 +71,13 @@ export default function OverviewPage() {
 
       {/* Why We Exist */}
       <section className="border-b border-industrial-300 dark:border-industrial-700">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="content-grid">
             <div className="lg:col-span-4">
-              <h2 className="font-serif text-3xl font-bold mb-4 text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-2xl md:text-3xl font-bold mb-2 md:mb-4 text-graphite-950 dark:text-ivory-50">
                 Why We Exist
               </h2>
-              <div className="font-mono text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
+              <div className="font-mono text-[10px] sm:text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
                 ORGANIZATIONAL PURPOSE
               </div>
             </div>
@@ -107,13 +107,13 @@ export default function OverviewPage() {
 
       {/* How We Operate */}
       <section className="border-b border-industrial-300 dark:border-industrial-700">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="content-grid">
             <div className="lg:col-span-4">
-              <h2 className="font-serif text-3xl font-bold mb-4 text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-2xl md:text-3xl font-bold mb-2 md:mb-4 text-graphite-950 dark:text-ivory-50">
                 How We Operate
               </h2>
-              <div className="font-mono text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
+              <div className="font-mono text-[10px] sm:text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
                 OPERATIONAL MODEL
               </div>
             </div>
@@ -158,18 +158,18 @@ export default function OverviewPage() {
 
       {/* Who We Serve */}
       <section className="border-b border-industrial-300 dark:border-industrial-700">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="content-grid">
             <div className="lg:col-span-4">
-              <h2 className="font-serif text-3xl font-bold mb-4 text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-2xl md:text-3xl font-bold mb-2 md:mb-4 text-graphite-950 dark:text-ivory-50">
                 Who We Serve
               </h2>
-              <div className="font-mono text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
+              <div className="font-mono text-[10px] sm:text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
                 CLIENT PROFILE
               </div>
             </div>
             <div className="lg:col-span-8">
-              <p className="editorial-text mb-12">
+              <p className="editorial-text mb-8 md:mb-12">
                 FORGECORE serves organizations where infrastructure failure results in measurable harm:
                 financial loss, operational disruption, regulatory penalties, or threats to human safety.
                 Our clients are typically Fortune 500 corporations, national governments, healthcare
@@ -178,7 +178,7 @@ export default function OverviewPage() {
               
               <div className="space-y-8">
                 <div>
-                  <h3 className="font-sans text-xl font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                  <h3 className="font-sans text-xl font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                     Financial Services
                   </h3>
                   <p className="text-base text-graphite-800 dark:text-ivory-300 leading-relaxed">
@@ -189,7 +189,7 @@ export default function OverviewPage() {
                 </div>
 
                 <div>
-                  <h3 className="font-sans text-xl font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                  <h3 className="font-sans text-xl font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                     Healthcare & Life Sciences
                   </h3>
                   <p className="text-base text-graphite-800 dark:text-ivory-300 leading-relaxed">
@@ -200,7 +200,7 @@ export default function OverviewPage() {
                 </div>
 
                 <div>
-                  <h3 className="font-sans text-xl font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                  <h3 className="font-sans text-xl font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                     Manufacturing & Supply Chain
                   </h3>
                   <p className="text-base text-graphite-800 dark:text-ivory-300 leading-relaxed">
@@ -211,7 +211,7 @@ export default function OverviewPage() {
                 </div>
 
                 <div>
-                  <h3 className="font-sans text-xl font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                  <h3 className="font-sans text-xl font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                     Government & Critical Infrastructure
                   </h3>
                   <p className="text-base text-graphite-800 dark:text-ivory-300 leading-relaxed">
@@ -228,13 +228,13 @@ export default function OverviewPage() {
 
       {/* Where We Operate */}
       <section className="border-b border-industrial-300 dark:border-industrial-700">
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="content-grid">
             <div className="lg:col-span-4">
-              <h2 className="font-serif text-3xl font-bold mb-4 text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-2xl md:text-3xl font-bold mb-2 md:mb-4 text-graphite-950 dark:text-ivory-50">
                 Where We Operate
               </h2>
-              <div className="font-mono text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
+              <div className="font-mono text-[10px] sm:text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
                 GLOBAL FOOTPRINT
               </div>
             </div>
@@ -244,9 +244,9 @@ export default function OverviewPage() {
                 data centers are strategically positioned to satisfy data residency requirements, minimize
                 network latency, and ensure operational continuity during regional disruptions.
               </p>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8 mt-6 md:mt-8">
                 <div className="technical-block">
-                  <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                  <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                     NORTH AMERICA
                   </h3>
                   <ul className="space-y-1.5 text-sm text-graphite-800 dark:text-ivory-300">
@@ -256,7 +256,7 @@ export default function OverviewPage() {
                   </ul>
                 </div>
                 <div className="technical-block">
-                  <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                  <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                     EUROPE
                   </h3>
                   <ul className="space-y-1.5 text-sm text-graphite-800 dark:text-ivory-300">
@@ -266,7 +266,7 @@ export default function OverviewPage() {
                   </ul>
                 </div>
                 <div className="technical-block">
-                  <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                  <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                     ASIA-PACIFIC
                   </h3>
                   <ul className="space-y-1.5 text-sm text-graphite-800 dark:text-ivory-300">
@@ -276,7 +276,7 @@ export default function OverviewPage() {
                   </ul>
                 </div>
                 <div className="technical-block">
-                  <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-4">
+                  <h3 className="font-mono text-xs font-bold tracking-widest text-graphite-900 dark:text-ivory-100 mb-3 md:mb-4">
                     MIDDLE EAST & AFRICA
                   </h3>
                   <ul className="space-y-1.5 text-sm text-graphite-800 dark:text-ivory-300">
@@ -293,20 +293,20 @@ export default function OverviewPage() {
 
       {/* Operating Principles */}
       <section>
-        <div className="max-w-content mx-auto px-6 lg:px-12 py-24">
+        <div className="max-w-content mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-16 md:py-24">
           <div className="content-grid">
             <div className="lg:col-span-4">
-              <h2 className="font-serif text-3xl font-bold mb-4 text-graphite-950 dark:text-ivory-50">
+              <h2 className="font-serif text-2xl md:text-3xl font-bold mb-2 md:mb-4 text-graphite-950 dark:text-ivory-50">
                 Operating Principles
               </h2>
-              <div className="font-mono text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
+              <div className="font-mono text-[10px] sm:text-xs tracking-widest text-oxide-600 dark:text-oxide-500">
                 ORGANIZATIONAL STANDARDS
               </div>
             </div>
             <div className="lg:col-span-8">
-              <div className="space-y-10">
+              <div className="space-y-8 md:space-y-10">
                 <div>
-                  <h3 className="font-sans text-xl font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                  <h3 className="font-sans text-xl font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                     Performance is Non-Negotiable
                   </h3>
                   <p className="text-base text-graphite-800 dark:text-ivory-300 leading-relaxed mb-4">
@@ -321,7 +321,7 @@ export default function OverviewPage() {
                 </div>
 
                 <div>
-                  <h3 className="font-sans text-xl font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                  <h3 className="font-sans text-xl font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                     Security Through Architecture
                   </h3>
                   <p className="text-base text-graphite-800 dark:text-ivory-300 leading-relaxed mb-4">
@@ -337,7 +337,7 @@ export default function OverviewPage() {
                 </div>
 
                 <div>
-                  <h3 className="font-sans text-xl font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                  <h3 className="font-sans text-xl font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                     Compliance as Foundation
                   </h3>
                   <p className="text-base text-graphite-800 dark:text-ivory-300 leading-relaxed mb-4">
@@ -352,7 +352,7 @@ export default function OverviewPage() {
                 </div>
 
                 <div>
-                  <h3 className="font-sans text-xl font-semibold mb-3 text-graphite-900 dark:text-ivory-100">
+                  <h3 className="font-sans text-xl font-semibold mb-2 md:mb-3 text-graphite-900 dark:text-ivory-100">
                     Documentation as Code
                   </h3>
                   <p className="text-base text-graphite-800 dark:text-ivory-300 leading-relaxed">
