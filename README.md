@@ -1,126 +1,78 @@
 # FORGECORE Technologies — Enterprise Infrastructure Platform
 
-A dense, information-heavy corporate website built for a fictional enterprise technology company specializing in distributed computing infrastructure, AI systems, and mission-critical platforms.
+![FORGECORE Banner](public/assets/banner.png)
 
-## Design Philosophy
+A high-performance, information-dense corporate platform engineered for distributed computing, mission-critical AI systems, and industrial-scale infrastructure.
 
-- **Information over decoration** — No empty space, every section contains meaningful content
-- **Industrial aesthetic** — Brutalist design, grid-based layouts, sharp edges
-- **NO BLUE** — Color palette uses graphite, ivory, industrial gray, warm stone with burnt orange, oxide red, muted gold, and dark olive accents
-- **Editorial typography** — Feels like technical documentation or whitepapers
-- **Authority over friendliness** — Serious, precise, engineering-first tone
+## 🏗️ Design Philosophy
 
-## Tech Stack
+- **Information Over Decoration** — Every pixel serves a purpose. No decorative whitespace; only functional density.
+- **Industrial Brutalism** — A grid-based, sharp-edged aesthetic inspired by technical documentation and engineering whitepapers.
+- **Controlled Palette** — Zero blue. A sophisticated spectrum of Graphite, Ivory, and Industrial Gray, punctuated by Oxide Red and Muted Gold.
+- **Engineering Authority** — A tone that communicates precision, reliability, and technical dominance.
 
-- **Next.js 14** (App Router)
-- **React 18**
-- **TypeScript**
-- **Tailwind CSS** (custom industrial color system)
-- **Framer Motion** (minimal, purposeful animations)
+## 🛠️ Technology Stack
 
-## Features
+- **Framework**: [Next.js 14](https://nextjs.org/) (App Router)
+- **Library**: [React 18](https://reactjs.org/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) (Custom Industrial Token System)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/) (Minimal, high-intent transitions)
 
-- ✅ Fully functional dark/light theme toggle with localStorage persistence
-- ✅ No flash on reload
-- ✅ Fully responsive across all devices
-- ✅ 1 Hero + 7 long-form content pages
-- ✅ Industrial/brutalist design system
-- ✅ Information-dense layout
-- ✅ Custom color palette (no blue)
-- ✅ SEO-optimized structure
-- ✅ Production-ready code
+## ✨ Core Features
 
-## Pages
+- **Theme Engine**: Persistent Dark/Light mode with zero-flash implementation and `localStorage` synchronization.
+- **Architecture**: Production-ready App Router structure with optimized SEO metadata.
+- **Content Density**: 8 comprehensive pages (Hero + 7 detailed sections) covering the entire enterprise ecosystem.
+- **Responsiveness**: Precision-tuned layouts for mobile, tablet, and ultra-wide displays.
+- **Industrial UI**: Custom-built components following brutalist design principles.
 
-1. **Hero** — Editorial-style landing with company metrics
-2. **Overview** — Corporate structure, operations, principles
-3. **Offerings** — 6 enterprise infrastructure solutions
-4. **Systems** — Technical architecture and design philosophy
-5. **Applications** — 6 industry-specific implementations
-6. **Research** — R&D, engineering standards, AI ethics
-7. **Operations** — People, hiring, performance culture
-8. **Contact** — Enterprise inquiry form, offices, legal
+## 📁 Navigation Overview
 
-## Getting Started
+1. **[Hero](src/app/page.tsx)** — High-level editorial landing with real-time enterprise metrics.
+2. **[Overview](src/app/overview/page.tsx)** — Strategic vision, corporate hierarchy, and performance principles.
+3. **[Offerings](src/app/offerings/page.tsx)** — Specialized infrastructure solutions for global scale.
+4. **[Systems](src/app/systems/page.tsx)** — Deep dive into technical architecture and R&D standards.
+5. **[Applications](src/app/applications/page.tsx)** — Sector-specific implementations (Energy, Finance, Defense).
+6. **[Research](src/app/research/page.tsx)** — Advanced R&D, AI ethics, and computational theory.
+7. **[Operations](src/app/operations/page.tsx)** — Logistics, workforce engineering, and cultural metrics.
+8. **[Contact](src/app/contact/page.tsx)** — Global office directory and enterprise inquiry protocols.
 
-### Install Dependencies
+## 🚀 Getting Started
 
-\`\`\`bash
+### 1. Environment Setup
+```bash
 npm install
-\`\`\`
+```
 
-### Run Development Server
-
-\`\`\`bash
+### 2. Development Execution
+```bash
 npm run dev
-\`\`\`
+```
+Navigate to `http://localhost:3000`.
 
-Open [http://localhost:3000](http://localhost:3000) to view the site.
-
-### Build for Production
-
-\`\`\`bash
+### 3. Production Deployment
+```bash
 npm run build
-npm start
-\`\`\`
+npm run start
+```
 
-## Color System
+## 🎨 Visual Identity
 
 ### Base Palette
-- **Graphite** — Deep charcoal (50-950 scale)
-- **Ivory** — Soft off-white (50-900 scale)
-- **Industrial** — Cool gray (50-950 scale)
-- **Stone** — Warm neutral (50-900 scale)
+| Color | Hex (Approx) | Usage |
+| :--- | :--- | :--- |
+| **Graphite** | `#1A1A1A` | Primary Surface / Text |
+| **Ivory** | `#F8F8F7` | Secondary Surface / Background |
+| **Industrial** | `#E5E5E5` | Structural Grids / Borders |
+| **Oxide** | `#B22222` | Primary Call-to-Action / Focus |
 
-### Accent Palette
-- **Oxide** — Burnt red (primary accent)
-- **Burnt** — Burnt orange
-- **Gold** — Muted gold
-- **Olive** — Dark olive
-
-## Typography
-
-- **Headings** — Lora (serif)
-- **Body** — Inter (sans-serif)
-- **Code/Mono** — JetBrains Mono
-
-## Theme Toggle
-
-Located in header navigation. Persists across sessions via localStorage. Smooth color transitions, no flash on page load.
-
-## Project Structure
-
-\`\`\`
-src/
-├── app/
-│   ├── layout.tsx          # Root layout with theme provider
-│   ├── page.tsx            # Homepage with hero
-│   ├── overview/
-│   ├── offerings/
-│   ├── systems/
-│   ├── applications/
-│   ├── research/
-│   ├── operations/
-│   └── contact/
-├── components/
-│   ├── Header.tsx
-│   ├── Footer.tsx
-│   └── ThemeToggle.tsx
-└── contexts/
-    └── ThemeContext.tsx
-\`\`\`
-
-## Brand Identity
-
-**Company Name:** FORGECORE Technologies  
-**Tagline:** Distributed Infrastructure for Enterprise Computing  
-**Established:** 2019  
-**Logo:** Brutalist grid geometry with oxide red accent
-
-## License
-
-This is a fictional company website created for demonstration purposes.
+### Typography
+- **Serif**: [Lora](https://fonts.google.com/specimen/Lora) (Headings & Editorial Content)
+- **Sans**: [Inter](https://fonts.google.com/specimen/Inter) (Body & Interface)
+- **Mono**: [JetBrains Mono](https://fonts.google.com/specimen/JetBrains+Mono) (Technical Data)
 
 ---
 
-**Built by GitHub Copilot** — January 2026
+**FORGECORE Technologies** | *Distributed Infrastructure for Enterprise Computing*  
+Established 2019 • Engineering for the future of decentralized systems.
